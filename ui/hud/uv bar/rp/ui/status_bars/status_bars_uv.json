@@ -1,0 +1,997 @@
+{
+  "namespace": "status_bars_uv",
+  "image_uv_base_full0@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      0
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full1@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      8
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full2@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      16
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full3@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      24
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full4@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      32
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full5@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      40
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full6@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      48
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full7@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      56
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full8@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      64
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full9@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      72
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full10@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      80
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full11@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      88
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full12@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      96
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full13@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      104
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full14@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      112
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full15@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      120
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full16@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      128
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full17@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      136
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full18@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      144
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full19@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      152
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full20@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      160
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full21@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      168
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full22@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      176
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full23@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      184
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full24@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      192
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full25@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      200
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full26@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      208
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full27@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      216
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full28@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      224
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full29@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      232
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full30@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      240
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full31@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      248
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full32@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      256
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full33@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      264
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full34@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      272
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full35@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      280
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full36@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      288
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full37@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      296
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full38@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      304
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full39@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      312
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full40@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      320
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full41@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      328
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full42@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      336
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full43@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      344
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full44@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      352
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full45@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      360
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full46@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      368
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full47@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      376
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full48@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      384
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full49@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      392
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full50@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      400
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full51@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      408
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full52@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      416
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full53@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      424
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full54@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      432
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full55@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      440
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full56@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      448
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full57@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      456
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full58@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      464
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full59@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      472
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full60@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      480
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full61@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      488
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full62@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      496
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full63@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      504
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full64@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      512
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full65@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      520
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full66@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      528
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full67@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      536
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full68@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      544
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full69@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      552
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_base_full70@status_bars.image_uv": {
+    "$set_image_uv": [
+      1,
+      560
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full0@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      0
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full1@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      32
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full2@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      64
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full3@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      96
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full4@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      128
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full5@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      160
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full6@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      192
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full7@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      224
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full8@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      256
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full9@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      288
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full10@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      320
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full11@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      352
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full12@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      384
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full13@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      416
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full14@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      448
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full15@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      480
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full16@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      512
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full17@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      544
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full18@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      576
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full19@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      608
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full20@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      640
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full21@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      672
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full22@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      704
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full23@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      736
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full24@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      768
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full25@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      800
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full26@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      832
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full27@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      864
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full28@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      896
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full29@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      928
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full30@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      960
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full31@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      992
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full32@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1024
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full33@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1056
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full34@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1088
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full35@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1120
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full36@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1152
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full37@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1184
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full38@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1216
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full39@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1248
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full40@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1280
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full41@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1312
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full42@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1344
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full43@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1376
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full44@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1408
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full45@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1440
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full46@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1472
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full47@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1504
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full48@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1536
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full49@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1568
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full50@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1600
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full51@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1632
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full52@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1664
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full53@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1696
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full54@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1728
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full55@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1760
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full56@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1792
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full57@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1824
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full58@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1856
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full59@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1888
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full60@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1920
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full61@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1952
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full62@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      1984
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full63@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      2016
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full64@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      2048
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full65@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      2080
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full66@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      2112
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full67@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      2144
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full68@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      2176
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full69@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      2208
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  },
+  "image_uv_circular_full70@status_bars.image_uv": {
+    "$set_image_uv": [
+      0,
+      2240
+    ],
+    "$set_image_uv_next": "@status_bars.stay_by_alpha"
+  }
+}

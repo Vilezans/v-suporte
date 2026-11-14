@@ -1,0 +1,1712 @@
+{
+ "namespace": "hud",
+ "hud_actionbar_text": {
+  "$hv_p": "$actionbar_text",
+  "visible": "(not (('%.5s' * $hv_p) = 'HUDV:'))"
+ },
+ "hudv_panel": {
+  "type": "panel",
+  "size": [
+   80,
+   22
+  ],
+  "layer": 40,
+  "anchor_from": "bottom_middle",
+  "anchor_to": "bottom_middle",
+  "offset": [
+   137,
+   -1
+  ],
+  "$p": "$actionbar_text",
+  "$gear_text": "0",
+  "$seg_size": [
+   0,
+   4
+  ],
+  "$seg_uv": [
+   0,
+   4
+  ],
+  "$seg_vis": false,
+  "$spd_text": "0 km/h",
+  "$bar_size": [
+   0,
+   4
+  ],
+  "$bar_uv": [
+   0,
+   5
+  ],
+  "$bar_vis": false,
+  "visible": "(('%.5s' * $p) = 'HUDV:')",
+  "variables": [
+   {
+    "requires": "(not (($p - 'G0|') = $p))",
+    "$gear_text": "0",
+    "$seg_size": [
+     0,
+     4
+    ],
+    "$seg_uv": [
+     0,
+     4
+    ],
+    "$seg_vis": false
+   },
+   {
+    "requires": "(not (($p - 'G1|') = $p))",
+    "$gear_text": "1",
+    "$seg_size": [
+     5,
+     4
+    ],
+    "$seg_uv": [
+     5,
+     4
+    ],
+    "$seg_vis": true
+   },
+   {
+    "requires": "(not (($p - 'G2|') = $p))",
+    "$gear_text": "2",
+    "$seg_size": [
+     10,
+     4
+    ],
+    "$seg_uv": [
+     10,
+     4
+    ],
+    "$seg_vis": true
+   },
+   {
+    "requires": "(not (($p - 'G3|') = $p))",
+    "$gear_text": "3",
+    "$seg_size": [
+     15,
+     4
+    ],
+    "$seg_uv": [
+     15,
+     4
+    ],
+    "$seg_vis": true
+   },
+   {
+    "requires": "(not (($p - 'G4|') = $p))",
+    "$gear_text": "4",
+    "$seg_size": [
+     20,
+     4
+    ],
+    "$seg_uv": [
+     20,
+     4
+    ],
+    "$seg_vis": true
+   },
+   {
+    "requires": "(not (($p - 'G5|') = $p))",
+    "$gear_text": "5",
+    "$seg_size": [
+     25,
+     4
+    ],
+    "$seg_uv": [
+     25,
+     4
+    ],
+    "$seg_vis": true
+   },
+   {
+    "requires": "(not (($p - 'G6|') = $p))",
+    "$gear_text": "6",
+    "$seg_size": [
+     30,
+     4
+    ],
+    "$seg_uv": [
+     30,
+     4
+    ],
+    "$seg_vis": true
+   },
+   {
+    "requires": "(not (($p - 'G7|') = $p))",
+    "$gear_text": "7",
+    "$seg_size": [
+     35,
+     4
+    ],
+    "$seg_uv": [
+     35,
+     4
+    ],
+    "$seg_vis": true
+   },
+   {
+    "requires": "(not (($p - 'G8|') = $p))",
+    "$gear_text": "8",
+    "$seg_size": [
+     40,
+     4
+    ],
+    "$seg_uv": [
+     40,
+     4
+    ],
+    "$seg_vis": true
+   },
+   {
+    "requires": "(not (($p - 'G9|') = $p))",
+    "$gear_text": "9",
+    "$seg_size": [
+     45,
+     4
+    ],
+    "$seg_uv": [
+     45,
+     4
+    ],
+    "$seg_vis": true
+   },
+   {
+    "requires": "(not (($p - 'G10|') = $p))",
+    "$gear_text": "10",
+    "$seg_size": [
+     50,
+     4
+    ],
+    "$seg_uv": [
+     50,
+     4
+    ],
+    "$seg_vis": true
+   },
+   {
+    "requires": "(not (($p - 'G11|') = $p))",
+    "$gear_text": "11",
+    "$seg_size": [
+     55,
+     4
+    ],
+    "$seg_uv": [
+     55,
+     4
+    ],
+    "$seg_vis": true
+   },
+   {
+    "requires": "(not (($p - 'G12|') = $p))",
+    "$gear_text": "12",
+    "$seg_size": [
+     60,
+     4
+    ],
+    "$seg_uv": [
+     60,
+     4
+    ],
+    "$seg_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S0|') = $p))",
+    "$spd_text": "0 km/h",
+    "$bar_size": [
+     0.0,
+     4
+    ],
+    "$bar_uv": [
+     0,
+     5
+    ],
+    "$bar_vis": false
+   },
+   {
+    "requires": "(not (($p - 'S1|') = $p))",
+    "$spd_text": "1 km/h",
+    "$bar_size": [
+     0.8,
+     4
+    ],
+    "$bar_uv": [
+     1,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S2|') = $p))",
+    "$spd_text": "2 km/h",
+    "$bar_size": [
+     1.6,
+     4
+    ],
+    "$bar_uv": [
+     2,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S3|') = $p))",
+    "$spd_text": "3 km/h",
+    "$bar_size": [
+     2.4,
+     4
+    ],
+    "$bar_uv": [
+     3,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S4|') = $p))",
+    "$spd_text": "4 km/h",
+    "$bar_size": [
+     3.2,
+     4
+    ],
+    "$bar_uv": [
+     4,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S5|') = $p))",
+    "$spd_text": "5 km/h",
+    "$bar_size": [
+     4.0,
+     4
+    ],
+    "$bar_uv": [
+     5,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S6|') = $p))",
+    "$spd_text": "6 km/h",
+    "$bar_size": [
+     4.8,
+     4
+    ],
+    "$bar_uv": [
+     6,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S7|') = $p))",
+    "$spd_text": "7 km/h",
+    "$bar_size": [
+     5.6,
+     4
+    ],
+    "$bar_uv": [
+     7,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S8|') = $p))",
+    "$spd_text": "8 km/h",
+    "$bar_size": [
+     6.4,
+     4
+    ],
+    "$bar_uv": [
+     8,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S9|') = $p))",
+    "$spd_text": "9 km/h",
+    "$bar_size": [
+     7.2,
+     4
+    ],
+    "$bar_uv": [
+     9,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S10|') = $p))",
+    "$spd_text": "10 km/h",
+    "$bar_size": [
+     8.0,
+     4
+    ],
+    "$bar_uv": [
+     10,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S11|') = $p))",
+    "$spd_text": "11 km/h",
+    "$bar_size": [
+     8.8,
+     4
+    ],
+    "$bar_uv": [
+     11,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S12|') = $p))",
+    "$spd_text": "12 km/h",
+    "$bar_size": [
+     9.6,
+     4
+    ],
+    "$bar_uv": [
+     12,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S13|') = $p))",
+    "$spd_text": "13 km/h",
+    "$bar_size": [
+     10.4,
+     4
+    ],
+    "$bar_uv": [
+     13,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S14|') = $p))",
+    "$spd_text": "14 km/h",
+    "$bar_size": [
+     11.2,
+     4
+    ],
+    "$bar_uv": [
+     14,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S15|') = $p))",
+    "$spd_text": "15 km/h",
+    "$bar_size": [
+     12.0,
+     4
+    ],
+    "$bar_uv": [
+     15,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S16|') = $p))",
+    "$spd_text": "16 km/h",
+    "$bar_size": [
+     12.8,
+     4
+    ],
+    "$bar_uv": [
+     16,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S17|') = $p))",
+    "$spd_text": "17 km/h",
+    "$bar_size": [
+     13.6,
+     4
+    ],
+    "$bar_uv": [
+     17,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S18|') = $p))",
+    "$spd_text": "18 km/h",
+    "$bar_size": [
+     14.4,
+     4
+    ],
+    "$bar_uv": [
+     18,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S19|') = $p))",
+    "$spd_text": "19 km/h",
+    "$bar_size": [
+     15.2,
+     4
+    ],
+    "$bar_uv": [
+     19,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S20|') = $p))",
+    "$spd_text": "20 km/h",
+    "$bar_size": [
+     16.0,
+     4
+    ],
+    "$bar_uv": [
+     20,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S21|') = $p))",
+    "$spd_text": "21 km/h",
+    "$bar_size": [
+     16.8,
+     4
+    ],
+    "$bar_uv": [
+     21,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S22|') = $p))",
+    "$spd_text": "22 km/h",
+    "$bar_size": [
+     17.6,
+     4
+    ],
+    "$bar_uv": [
+     22,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S23|') = $p))",
+    "$spd_text": "23 km/h",
+    "$bar_size": [
+     18.4,
+     4
+    ],
+    "$bar_uv": [
+     23,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S24|') = $p))",
+    "$spd_text": "24 km/h",
+    "$bar_size": [
+     19.2,
+     4
+    ],
+    "$bar_uv": [
+     24,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S25|') = $p))",
+    "$spd_text": "25 km/h",
+    "$bar_size": [
+     20.0,
+     4
+    ],
+    "$bar_uv": [
+     25,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S26|') = $p))",
+    "$spd_text": "26 km/h",
+    "$bar_size": [
+     20.8,
+     4
+    ],
+    "$bar_uv": [
+     26,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S27|') = $p))",
+    "$spd_text": "27 km/h",
+    "$bar_size": [
+     21.6,
+     4
+    ],
+    "$bar_uv": [
+     27,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S28|') = $p))",
+    "$spd_text": "28 km/h",
+    "$bar_size": [
+     22.4,
+     4
+    ],
+    "$bar_uv": [
+     28,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S29|') = $p))",
+    "$spd_text": "29 km/h",
+    "$bar_size": [
+     23.2,
+     4
+    ],
+    "$bar_uv": [
+     29,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S30|') = $p))",
+    "$spd_text": "30 km/h",
+    "$bar_size": [
+     24.0,
+     4
+    ],
+    "$bar_uv": [
+     30,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S31|') = $p))",
+    "$spd_text": "31 km/h",
+    "$bar_size": [
+     24.8,
+     4
+    ],
+    "$bar_uv": [
+     31,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S32|') = $p))",
+    "$spd_text": "32 km/h",
+    "$bar_size": [
+     25.6,
+     4
+    ],
+    "$bar_uv": [
+     32,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S33|') = $p))",
+    "$spd_text": "33 km/h",
+    "$bar_size": [
+     26.4,
+     4
+    ],
+    "$bar_uv": [
+     33,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S34|') = $p))",
+    "$spd_text": "34 km/h",
+    "$bar_size": [
+     27.2,
+     4
+    ],
+    "$bar_uv": [
+     34,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S35|') = $p))",
+    "$spd_text": "35 km/h",
+    "$bar_size": [
+     28.0,
+     4
+    ],
+    "$bar_uv": [
+     35,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S36|') = $p))",
+    "$spd_text": "36 km/h",
+    "$bar_size": [
+     28.8,
+     4
+    ],
+    "$bar_uv": [
+     36,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S37|') = $p))",
+    "$spd_text": "37 km/h",
+    "$bar_size": [
+     29.6,
+     4
+    ],
+    "$bar_uv": [
+     37,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S38|') = $p))",
+    "$spd_text": "38 km/h",
+    "$bar_size": [
+     30.4,
+     4
+    ],
+    "$bar_uv": [
+     38,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S39|') = $p))",
+    "$spd_text": "39 km/h",
+    "$bar_size": [
+     31.2,
+     4
+    ],
+    "$bar_uv": [
+     39,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S40|') = $p))",
+    "$spd_text": "40 km/h",
+    "$bar_size": [
+     32.0,
+     4
+    ],
+    "$bar_uv": [
+     40,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S41|') = $p))",
+    "$spd_text": "41 km/h",
+    "$bar_size": [
+     32.8,
+     4
+    ],
+    "$bar_uv": [
+     41,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S42|') = $p))",
+    "$spd_text": "42 km/h",
+    "$bar_size": [
+     33.6,
+     4
+    ],
+    "$bar_uv": [
+     42,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S43|') = $p))",
+    "$spd_text": "43 km/h",
+    "$bar_size": [
+     34.4,
+     4
+    ],
+    "$bar_uv": [
+     43,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S44|') = $p))",
+    "$spd_text": "44 km/h",
+    "$bar_size": [
+     35.2,
+     4
+    ],
+    "$bar_uv": [
+     44,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S45|') = $p))",
+    "$spd_text": "45 km/h",
+    "$bar_size": [
+     36.0,
+     4
+    ],
+    "$bar_uv": [
+     45,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S46|') = $p))",
+    "$spd_text": "46 km/h",
+    "$bar_size": [
+     36.8,
+     4
+    ],
+    "$bar_uv": [
+     46,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S47|') = $p))",
+    "$spd_text": "47 km/h",
+    "$bar_size": [
+     37.6,
+     4
+    ],
+    "$bar_uv": [
+     47,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S48|') = $p))",
+    "$spd_text": "48 km/h",
+    "$bar_size": [
+     38.4,
+     4
+    ],
+    "$bar_uv": [
+     48,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S49|') = $p))",
+    "$spd_text": "49 km/h",
+    "$bar_size": [
+     39.2,
+     4
+    ],
+    "$bar_uv": [
+     49,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S50|') = $p))",
+    "$spd_text": "50 km/h",
+    "$bar_size": [
+     40.0,
+     4
+    ],
+    "$bar_uv": [
+     50,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S51|') = $p))",
+    "$spd_text": "51 km/h",
+    "$bar_size": [
+     40.8,
+     4
+    ],
+    "$bar_uv": [
+     51,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S52|') = $p))",
+    "$spd_text": "52 km/h",
+    "$bar_size": [
+     41.6,
+     4
+    ],
+    "$bar_uv": [
+     52,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S53|') = $p))",
+    "$spd_text": "53 km/h",
+    "$bar_size": [
+     42.4,
+     4
+    ],
+    "$bar_uv": [
+     53,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S54|') = $p))",
+    "$spd_text": "54 km/h",
+    "$bar_size": [
+     43.2,
+     4
+    ],
+    "$bar_uv": [
+     54,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S55|') = $p))",
+    "$spd_text": "55 km/h",
+    "$bar_size": [
+     44.0,
+     4
+    ],
+    "$bar_uv": [
+     55,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S56|') = $p))",
+    "$spd_text": "56 km/h",
+    "$bar_size": [
+     44.8,
+     4
+    ],
+    "$bar_uv": [
+     56,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S57|') = $p))",
+    "$spd_text": "57 km/h",
+    "$bar_size": [
+     45.6,
+     4
+    ],
+    "$bar_uv": [
+     57,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S58|') = $p))",
+    "$spd_text": "58 km/h",
+    "$bar_size": [
+     46.4,
+     4
+    ],
+    "$bar_uv": [
+     58,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S59|') = $p))",
+    "$spd_text": "59 km/h",
+    "$bar_size": [
+     47.2,
+     4
+    ],
+    "$bar_uv": [
+     59,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S60|') = $p))",
+    "$spd_text": "60 km/h",
+    "$bar_size": [
+     48.0,
+     4
+    ],
+    "$bar_uv": [
+     60,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S61|') = $p))",
+    "$spd_text": "61 km/h",
+    "$bar_size": [
+     48.8,
+     4
+    ],
+    "$bar_uv": [
+     61,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S62|') = $p))",
+    "$spd_text": "62 km/h",
+    "$bar_size": [
+     49.6,
+     4
+    ],
+    "$bar_uv": [
+     62,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S63|') = $p))",
+    "$spd_text": "63 km/h",
+    "$bar_size": [
+     50.4,
+     4
+    ],
+    "$bar_uv": [
+     63,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S64|') = $p))",
+    "$spd_text": "64 km/h",
+    "$bar_size": [
+     51.2,
+     4
+    ],
+    "$bar_uv": [
+     64,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S65|') = $p))",
+    "$spd_text": "65 km/h",
+    "$bar_size": [
+     52.0,
+     4
+    ],
+    "$bar_uv": [
+     65,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S66|') = $p))",
+    "$spd_text": "66 km/h",
+    "$bar_size": [
+     52.8,
+     4
+    ],
+    "$bar_uv": [
+     66,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S67|') = $p))",
+    "$spd_text": "67 km/h",
+    "$bar_size": [
+     53.6,
+     4
+    ],
+    "$bar_uv": [
+     67,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S68|') = $p))",
+    "$spd_text": "68 km/h",
+    "$bar_size": [
+     54.4,
+     4
+    ],
+    "$bar_uv": [
+     68,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S69|') = $p))",
+    "$spd_text": "69 km/h",
+    "$bar_size": [
+     55.2,
+     4
+    ],
+    "$bar_uv": [
+     69,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S70|') = $p))",
+    "$spd_text": "70 km/h",
+    "$bar_size": [
+     56.0,
+     4
+    ],
+    "$bar_uv": [
+     70,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S71|') = $p))",
+    "$spd_text": "71 km/h",
+    "$bar_size": [
+     56.8,
+     4
+    ],
+    "$bar_uv": [
+     71,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S72|') = $p))",
+    "$spd_text": "72 km/h",
+    "$bar_size": [
+     57.6,
+     4
+    ],
+    "$bar_uv": [
+     72,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S73|') = $p))",
+    "$spd_text": "73 km/h",
+    "$bar_size": [
+     58.4,
+     4
+    ],
+    "$bar_uv": [
+     73,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S74|') = $p))",
+    "$spd_text": "74 km/h",
+    "$bar_size": [
+     59.2,
+     4
+    ],
+    "$bar_uv": [
+     74,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S75|') = $p))",
+    "$spd_text": "75 km/h",
+    "$bar_size": [
+     60.0,
+     4
+    ],
+    "$bar_uv": [
+     75,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S76|') = $p))",
+    "$spd_text": "76 km/h",
+    "$bar_size": [
+     60.8,
+     4
+    ],
+    "$bar_uv": [
+     76,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S77|') = $p))",
+    "$spd_text": "77 km/h",
+    "$bar_size": [
+     61.6,
+     4
+    ],
+    "$bar_uv": [
+     77,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S78|') = $p))",
+    "$spd_text": "78 km/h",
+    "$bar_size": [
+     62.4,
+     4
+    ],
+    "$bar_uv": [
+     78,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S79|') = $p))",
+    "$spd_text": "79 km/h",
+    "$bar_size": [
+     63.2,
+     4
+    ],
+    "$bar_uv": [
+     79,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S80|') = $p))",
+    "$spd_text": "80 km/h",
+    "$bar_size": [
+     64.0,
+     4
+    ],
+    "$bar_uv": [
+     80,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S81|') = $p))",
+    "$spd_text": "81 km/h",
+    "$bar_size": [
+     64.8,
+     4
+    ],
+    "$bar_uv": [
+     81,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S82|') = $p))",
+    "$spd_text": "82 km/h",
+    "$bar_size": [
+     65.6,
+     4
+    ],
+    "$bar_uv": [
+     82,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S83|') = $p))",
+    "$spd_text": "83 km/h",
+    "$bar_size": [
+     66.4,
+     4
+    ],
+    "$bar_uv": [
+     83,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S84|') = $p))",
+    "$spd_text": "84 km/h",
+    "$bar_size": [
+     67.2,
+     4
+    ],
+    "$bar_uv": [
+     84,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S85|') = $p))",
+    "$spd_text": "85 km/h",
+    "$bar_size": [
+     68.0,
+     4
+    ],
+    "$bar_uv": [
+     85,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S86|') = $p))",
+    "$spd_text": "86 km/h",
+    "$bar_size": [
+     68.8,
+     4
+    ],
+    "$bar_uv": [
+     86,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S87|') = $p))",
+    "$spd_text": "87 km/h",
+    "$bar_size": [
+     69.6,
+     4
+    ],
+    "$bar_uv": [
+     87,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S88|') = $p))",
+    "$spd_text": "88 km/h",
+    "$bar_size": [
+     70.4,
+     4
+    ],
+    "$bar_uv": [
+     88,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S89|') = $p))",
+    "$spd_text": "89 km/h",
+    "$bar_size": [
+     71.2,
+     4
+    ],
+    "$bar_uv": [
+     89,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S90|') = $p))",
+    "$spd_text": "90 km/h",
+    "$bar_size": [
+     72.0,
+     4
+    ],
+    "$bar_uv": [
+     90,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S91|') = $p))",
+    "$spd_text": "91 km/h",
+    "$bar_size": [
+     72.8,
+     4
+    ],
+    "$bar_uv": [
+     91,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S92|') = $p))",
+    "$spd_text": "92 km/h",
+    "$bar_size": [
+     73.6,
+     4
+    ],
+    "$bar_uv": [
+     92,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S93|') = $p))",
+    "$spd_text": "93 km/h",
+    "$bar_size": [
+     74.4,
+     4
+    ],
+    "$bar_uv": [
+     93,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S94|') = $p))",
+    "$spd_text": "94 km/h",
+    "$bar_size": [
+     75.2,
+     4
+    ],
+    "$bar_uv": [
+     94,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S95|') = $p))",
+    "$spd_text": "95 km/h",
+    "$bar_size": [
+     76.0,
+     4
+    ],
+    "$bar_uv": [
+     95,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S96|') = $p))",
+    "$spd_text": "96 km/h",
+    "$bar_size": [
+     76.8,
+     4
+    ],
+    "$bar_uv": [
+     96,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S97|') = $p))",
+    "$spd_text": "97 km/h",
+    "$bar_size": [
+     77.6,
+     4
+    ],
+    "$bar_uv": [
+     97,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S98|') = $p))",
+    "$spd_text": "98 km/h",
+    "$bar_size": [
+     78.4,
+     4
+    ],
+    "$bar_uv": [
+     98,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S99|') = $p))",
+    "$spd_text": "99 km/h",
+    "$bar_size": [
+     79.2,
+     4
+    ],
+    "$bar_uv": [
+     99,
+     5
+    ],
+    "$bar_vis": true
+   },
+   {
+    "requires": "(not (($p - 'S100|') = $p))",
+    "$spd_text": "100 km/h",
+    "$bar_size": [
+     80.0,
+     4
+    ],
+    "$bar_uv": [
+     100,
+     5
+    ],
+    "$bar_vis": true
+   }
+  ],
+  "controls": [
+   {
+    "gear": {
+     "type": "label",
+     "text": "$gear_text",
+     "localize": false,
+     "font_type": "MinecraftTen",
+     "font_scale_factor": 0.9,
+     "text_alignment": "left",
+     "color": [
+      1,
+      1,
+      1
+     ],
+     "shadow": true,
+     "size": [
+      20,
+      9
+     ],
+     "offset": [
+      0,
+      0
+     ],
+     "anchor_from": "top_left",
+     "anchor_to": "top_left",
+     "layer": 5
+    }
+   },
+   {
+    "seg": {
+     "type": "panel",
+     "size": [
+      60,
+      4
+     ],
+     "anchor_from": "top_right",
+     "anchor_to": "top_right",
+     "offset": [
+      0,
+      2
+     ],
+     "controls": [
+      {
+       "empty": {
+        "type": "image",
+        "texture": "textures/ui/hudv/seg_empty",
+        "size": [
+         60,
+         4
+        ],
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "bilinear": false,
+        "keep_ratio": false,
+        "layer": 1
+       }
+      },
+      {
+       "full": {
+        "type": "image",
+        "texture": "textures/ui/hudv/seg_full",
+        "size": "$seg_size",
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "bilinear": false,
+        "keep_ratio": false,
+        "layer": 2,
+        "uv": [
+         0,
+         0
+        ],
+        "uv_size": "$seg_uv",
+        "visible": "$seg_vis"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "speed": {
+     "type": "label",
+     "text": "$spd_text",
+     "localize": false,
+     "font_type": "MinecraftTen",
+     "font_scale_factor": 0.65,
+     "text_alignment": "right",
+     "color": [
+      1,
+      1,
+      1
+     ],
+     "shadow": true,
+     "size": [
+      80,
+      9
+     ],
+     "offset": [
+      0,
+      7
+     ],
+     "anchor_from": "top_left",
+     "anchor_to": "top_left",
+     "layer": 5
+    }
+   },
+   {
+    "bar": {
+     "type": "panel",
+     "size": [
+      80,
+      4
+     ],
+     "anchor_from": "top_left",
+     "anchor_to": "top_left",
+     "offset": [
+      0,
+      17
+     ],
+     "controls": [
+      {
+       "empty": {
+        "type": "image",
+        "texture": "textures/ui/hudv/bar_empty",
+        "size": [
+         80,
+         4
+        ],
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "bilinear": false,
+        "keep_ratio": false,
+        "layer": 1
+       }
+      },
+      {
+       "full": {
+        "type": "image",
+        "texture": "textures/ui/hudv/bar_full",
+        "size": "$bar_size",
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "bilinear": false,
+        "keep_ratio": false,
+        "layer": 2,
+        "uv": [
+         0,
+         0
+        ],
+        "uv_size": "$bar_uv",
+        "visible": "$bar_vis"
+       }
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "root_panel": {
+  "modifications": [
+   {
+    "array_name": "controls",
+    "operation": "insert_back",
+    "value": [
+     {
+      "hudv_factory": {
+       "type": "panel",
+       "size": [
+        "100%",
+        "100%"
+       ],
+       "layer": 50,
+       "factory": {
+        "name": "hud_actionbar_text_factory",
+        "max_children_size": 1,
+        "control_ids": {
+         "hud_actionbar_text": "hud_actionbar_text@hud.hudv_panel"
+        }
+       }
+      }
+     }
+    ]
+   }
+  ]
+ }
+}
+
+// Use /titleraw @s actionbar {"rawtext":[{"text":"HUDV:G3|S75|"}]} para ativar a hud. 

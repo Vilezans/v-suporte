@@ -1,0 +1,6 @@
+{
+  "ui_defs": [
+    "ui/status_bars/status_bars.json",
+    "ui/status_bars/status_bars_uv.json"
+  ]
+}

@@ -1,0 +1,2107 @@
+{
+  "namespace": "status_bars",
+  "image_uv": {
+    "anim_type": "uv",
+    "$set_image_uv|default": [
+      0,
+      0
+    ],
+    "duration": 0.0357142857,
+    "from": "$set_image_uv",
+    "to": "$set_image_uv",
+    "easing": "linear",
+    "next": "$set_image_uv_next"
+  },
+  "stay_by_alpha": {
+    "anim_type": "alpha",
+    "easing": "linear",
+    "duration": 0.1,
+    "from": 1,
+    "to": 1
+  },
+  "vida_image": {
+    "$set_alpha|default": 0,
+    "$status_uv|default": "base_full0",
+    "type": "image",
+    "size": [
+      84.3,
+      12
+    ],
+    "uv_size": [
+      82,
+      8
+    ],
+    "uv": "('@status_bars_uv.image_uv_' + $status_uv)",
+    "texture": "textures/bar/vida",
+    "alpha": "$set_alpha",
+    "layer": 30
+  },
+  "vida_stack_panel": {
+    "type": "stack_panel",
+    "size": [
+      84.3,
+      12
+    ],
+    "controls": [
+      {
+        "vida@status_bars.vida_image": {
+          "variables": [
+            {
+              "requires": "(not (($title_text - 'vida:0') = $title_text))",
+              "$status_uv": "base_full0",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:1') = $title_text))",
+              "$status_uv": "base_full1",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:2') = $title_text))",
+              "$status_uv": "base_full2",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:3') = $title_text))",
+              "$status_uv": "base_full3",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:4') = $title_text))",
+              "$status_uv": "base_full4",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:5') = $title_text))",
+              "$status_uv": "base_full5",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:6') = $title_text))",
+              "$status_uv": "base_full6",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:7') = $title_text))",
+              "$status_uv": "base_full7",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:8') = $title_text))",
+              "$status_uv": "base_full8",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:9') = $title_text))",
+              "$status_uv": "base_full9",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:10') = $title_text))",
+              "$status_uv": "base_full10",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:11') = $title_text))",
+              "$status_uv": "base_full11",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:12') = $title_text))",
+              "$status_uv": "base_full12",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:13') = $title_text))",
+              "$status_uv": "base_full13",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:14') = $title_text))",
+              "$status_uv": "base_full14",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:15') = $title_text))",
+              "$status_uv": "base_full15",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:16') = $title_text))",
+              "$status_uv": "base_full16",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:17') = $title_text))",
+              "$status_uv": "base_full17",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:18') = $title_text))",
+              "$status_uv": "base_full18",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:19') = $title_text))",
+              "$status_uv": "base_full19",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:20') = $title_text))",
+              "$status_uv": "base_full20",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:21') = $title_text))",
+              "$status_uv": "base_full21",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:22') = $title_text))",
+              "$status_uv": "base_full22",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:23') = $title_text))",
+              "$status_uv": "base_full23",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:24') = $title_text))",
+              "$status_uv": "base_full24",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:25') = $title_text))",
+              "$status_uv": "base_full25",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:26') = $title_text))",
+              "$status_uv": "base_full26",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:27') = $title_text))",
+              "$status_uv": "base_full27",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:28') = $title_text))",
+              "$status_uv": "base_full28",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:29') = $title_text))",
+              "$status_uv": "base_full29",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:30') = $title_text))",
+              "$status_uv": "base_full30",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:31') = $title_text))",
+              "$status_uv": "base_full31",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:32') = $title_text))",
+              "$status_uv": "base_full32",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:33') = $title_text))",
+              "$status_uv": "base_full33",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:34') = $title_text))",
+              "$status_uv": "base_full34",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:35') = $title_text))",
+              "$status_uv": "base_full35",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:36') = $title_text))",
+              "$status_uv": "base_full36",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:37') = $title_text))",
+              "$status_uv": "base_full37",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:38') = $title_text))",
+              "$status_uv": "base_full38",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:39') = $title_text))",
+              "$status_uv": "base_full39",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:40') = $title_text))",
+              "$status_uv": "base_full40",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:41') = $title_text))",
+              "$status_uv": "base_full41",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:42') = $title_text))",
+              "$status_uv": "base_full42",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:43') = $title_text))",
+              "$status_uv": "base_full43",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:44') = $title_text))",
+              "$status_uv": "base_full44",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:45') = $title_text))",
+              "$status_uv": "base_full45",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:46') = $title_text))",
+              "$status_uv": "base_full46",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:47') = $title_text))",
+              "$status_uv": "base_full47",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:48') = $title_text))",
+              "$status_uv": "base_full48",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:49') = $title_text))",
+              "$status_uv": "base_full49",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:50') = $title_text))",
+              "$status_uv": "base_full50",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:51') = $title_text))",
+              "$status_uv": "base_full51",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:52') = $title_text))",
+              "$status_uv": "base_full52",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:53') = $title_text))",
+              "$status_uv": "base_full53",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:54') = $title_text))",
+              "$status_uv": "base_full54",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:55') = $title_text))",
+              "$status_uv": "base_full55",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:56') = $title_text))",
+              "$status_uv": "base_full56",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:57') = $title_text))",
+              "$status_uv": "base_full57",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:58') = $title_text))",
+              "$status_uv": "base_full58",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:59') = $title_text))",
+              "$status_uv": "base_full59",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:60') = $title_text))",
+              "$status_uv": "base_full60",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:61') = $title_text))",
+              "$status_uv": "base_full61",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:62') = $title_text))",
+              "$status_uv": "base_full62",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:63') = $title_text))",
+              "$status_uv": "base_full63",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:64') = $title_text))",
+              "$status_uv": "base_full64",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:65') = $title_text))",
+              "$status_uv": "base_full65",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:66') = $title_text))",
+              "$status_uv": "base_full66",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:67') = $title_text))",
+              "$status_uv": "base_full67",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:68') = $title_text))",
+              "$status_uv": "base_full68",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:69') = $title_text))",
+              "$status_uv": "base_full69",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida:70') = $title_text))",
+              "$status_uv": "base_full70",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'vida_hide') = $title_text))",
+              "$status_uv": "base_full0",
+              "$set_alpha": 0
+            },
+            {
+              "requires": "(not (($title_text - 'barras_reset') = $title_text))",
+              "$status_uv": "base_full0",
+              "$set_alpha": 0
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "mana_image": {
+    "$set_alpha|default": 0,
+    "$status_uv|default": "base_full0",
+    "$mana_texture|default": "textures/bar/mana_azul",
+    "type": "image",
+    "size": [
+      84.3,
+      12
+    ],
+    "uv_size": [
+      82,
+      8
+    ],
+    "uv": "('@status_bars_uv.image_uv_' + $status_uv)",
+    "texture": "$mana_texture",
+    "alpha": "$set_alpha",
+    "layer": 30
+  },
+  "mana_stack_panel": {
+    "type": "stack_panel",
+    "size": [
+      84.3,
+      12
+    ],
+    "controls": [
+      {
+        "mana@status_bars.mana_image": {
+          "variables": [
+            {
+              "requires": "(not (($title_text - 'mana_cor:azul') = $title_text))",
+              "$mana_texture": "textures/bar/mana_azul"
+            },
+            {
+              "requires": "(not (($title_text - 'mana_cor:roxa') = $title_text))",
+              "$mana_texture": "textures/bar/mana_roxa"
+            },
+            {
+              "requires": "(not (($title_text - 'mana_cor:vermelha') = $title_text))",
+              "$mana_texture": "textures/bar/mana_vermelha"
+            },
+            {
+              "requires": "(not (($title_text - 'mana:0') = $title_text))",
+              "$status_uv": "base_full0",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:1') = $title_text))",
+              "$status_uv": "base_full1",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:2') = $title_text))",
+              "$status_uv": "base_full2",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:3') = $title_text))",
+              "$status_uv": "base_full3",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:4') = $title_text))",
+              "$status_uv": "base_full4",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:5') = $title_text))",
+              "$status_uv": "base_full5",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:6') = $title_text))",
+              "$status_uv": "base_full6",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:7') = $title_text))",
+              "$status_uv": "base_full7",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:8') = $title_text))",
+              "$status_uv": "base_full8",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:9') = $title_text))",
+              "$status_uv": "base_full9",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:10') = $title_text))",
+              "$status_uv": "base_full10",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:11') = $title_text))",
+              "$status_uv": "base_full11",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:12') = $title_text))",
+              "$status_uv": "base_full12",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:13') = $title_text))",
+              "$status_uv": "base_full13",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:14') = $title_text))",
+              "$status_uv": "base_full14",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:15') = $title_text))",
+              "$status_uv": "base_full15",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:16') = $title_text))",
+              "$status_uv": "base_full16",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:17') = $title_text))",
+              "$status_uv": "base_full17",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:18') = $title_text))",
+              "$status_uv": "base_full18",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:19') = $title_text))",
+              "$status_uv": "base_full19",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:20') = $title_text))",
+              "$status_uv": "base_full20",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:21') = $title_text))",
+              "$status_uv": "base_full21",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:22') = $title_text))",
+              "$status_uv": "base_full22",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:23') = $title_text))",
+              "$status_uv": "base_full23",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:24') = $title_text))",
+              "$status_uv": "base_full24",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:25') = $title_text))",
+              "$status_uv": "base_full25",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:26') = $title_text))",
+              "$status_uv": "base_full26",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:27') = $title_text))",
+              "$status_uv": "base_full27",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:28') = $title_text))",
+              "$status_uv": "base_full28",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:29') = $title_text))",
+              "$status_uv": "base_full29",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:30') = $title_text))",
+              "$status_uv": "base_full30",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:31') = $title_text))",
+              "$status_uv": "base_full31",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:32') = $title_text))",
+              "$status_uv": "base_full32",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:33') = $title_text))",
+              "$status_uv": "base_full33",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:34') = $title_text))",
+              "$status_uv": "base_full34",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:35') = $title_text))",
+              "$status_uv": "base_full35",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:36') = $title_text))",
+              "$status_uv": "base_full36",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:37') = $title_text))",
+              "$status_uv": "base_full37",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:38') = $title_text))",
+              "$status_uv": "base_full38",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:39') = $title_text))",
+              "$status_uv": "base_full39",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:40') = $title_text))",
+              "$status_uv": "base_full40",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:41') = $title_text))",
+              "$status_uv": "base_full41",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:42') = $title_text))",
+              "$status_uv": "base_full42",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:43') = $title_text))",
+              "$status_uv": "base_full43",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:44') = $title_text))",
+              "$status_uv": "base_full44",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:45') = $title_text))",
+              "$status_uv": "base_full45",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:46') = $title_text))",
+              "$status_uv": "base_full46",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:47') = $title_text))",
+              "$status_uv": "base_full47",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:48') = $title_text))",
+              "$status_uv": "base_full48",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:49') = $title_text))",
+              "$status_uv": "base_full49",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:50') = $title_text))",
+              "$status_uv": "base_full50",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:51') = $title_text))",
+              "$status_uv": "base_full51",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:52') = $title_text))",
+              "$status_uv": "base_full52",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:53') = $title_text))",
+              "$status_uv": "base_full53",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:54') = $title_text))",
+              "$status_uv": "base_full54",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:55') = $title_text))",
+              "$status_uv": "base_full55",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:56') = $title_text))",
+              "$status_uv": "base_full56",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:57') = $title_text))",
+              "$status_uv": "base_full57",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:58') = $title_text))",
+              "$status_uv": "base_full58",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:59') = $title_text))",
+              "$status_uv": "base_full59",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:60') = $title_text))",
+              "$status_uv": "base_full60",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:61') = $title_text))",
+              "$status_uv": "base_full61",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:62') = $title_text))",
+              "$status_uv": "base_full62",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:63') = $title_text))",
+              "$status_uv": "base_full63",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:64') = $title_text))",
+              "$status_uv": "base_full64",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:65') = $title_text))",
+              "$status_uv": "base_full65",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:66') = $title_text))",
+              "$status_uv": "base_full66",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:67') = $title_text))",
+              "$status_uv": "base_full67",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:68') = $title_text))",
+              "$status_uv": "base_full68",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:69') = $title_text))",
+              "$status_uv": "base_full69",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana:70') = $title_text))",
+              "$status_uv": "base_full70",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'mana_hide') = $title_text))",
+              "$status_uv": "base_full0",
+              "$set_alpha": 0
+            },
+            {
+              "requires": "(not (($title_text - 'barras_reset') = $title_text))",
+              "$status_uv": "base_full0",
+              "$set_alpha": 0
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "status_bars_root": {
+    "type": "panel",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "size": [
+      160,
+      32
+    ],
+    "offset": [
+      0,
+      -82
+    ],
+    "controls": [
+      {
+        "vida_bar@status_bars.vida_stack_panel": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            -48,
+            70
+          ]
+        }
+      },
+      {
+        "mana_bar@status_bars.mana_stack_panel": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            48,
+            70
+          ]
+        }
+      },
+      {
+        "loading_bar@status_bars.loading_stack_panel": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            8,
+            66
+          ]
+        }
+      },
+      {
+        "cast_bar@status_bars.cast_stack_panel": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            54
+          ]
+        }
+      },
+      {
+        "channel_bar@status_bars.channel_stack_panel": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            54
+          ]
+        }
+      }
+    ]
+  },
+  "cast_image": {
+    "$set_alpha|default": 0,
+    "$cast_uv|default": "base_full0",
+    "type": "image",
+    "size": [
+      84.3,
+      12
+    ],
+    "uv_size": [
+      82,
+      8
+    ],
+    "uv": "('@status_bars_uv.image_uv_' + $cast_uv)",
+    "texture": "textures/bar/mana_dourada",
+    "alpha": "$set_alpha",
+    "layer": 31,
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string",
+        "binding_name_override": "#cast_title_text"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not ((#cast_title_text - 'lancamento:') = #cast_title_text))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "cast_stack_panel": {
+    "type": "stack_panel",
+    "size": [
+      84.3,
+      12
+    ],
+    "controls": [
+      {
+        "cast@status_bars.cast_image": {
+          "variables": [
+            {
+              "requires": "(not (($title_text - 'lancamento:0') = $title_text))",
+              "$cast_uv": "base_full0",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:1') = $title_text))",
+              "$cast_uv": "base_full1",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:2') = $title_text))",
+              "$cast_uv": "base_full2",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:3') = $title_text))",
+              "$cast_uv": "base_full3",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:4') = $title_text))",
+              "$cast_uv": "base_full4",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:5') = $title_text))",
+              "$cast_uv": "base_full5",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:6') = $title_text))",
+              "$cast_uv": "base_full6",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:7') = $title_text))",
+              "$cast_uv": "base_full7",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:8') = $title_text))",
+              "$cast_uv": "base_full8",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:9') = $title_text))",
+              "$cast_uv": "base_full9",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:10') = $title_text))",
+              "$cast_uv": "base_full10",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:11') = $title_text))",
+              "$cast_uv": "base_full11",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:12') = $title_text))",
+              "$cast_uv": "base_full12",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:13') = $title_text))",
+              "$cast_uv": "base_full13",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:14') = $title_text))",
+              "$cast_uv": "base_full14",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:15') = $title_text))",
+              "$cast_uv": "base_full15",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:16') = $title_text))",
+              "$cast_uv": "base_full16",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:17') = $title_text))",
+              "$cast_uv": "base_full17",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:18') = $title_text))",
+              "$cast_uv": "base_full18",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:19') = $title_text))",
+              "$cast_uv": "base_full19",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:20') = $title_text))",
+              "$cast_uv": "base_full20",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:21') = $title_text))",
+              "$cast_uv": "base_full21",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:22') = $title_text))",
+              "$cast_uv": "base_full22",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:23') = $title_text))",
+              "$cast_uv": "base_full23",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:24') = $title_text))",
+              "$cast_uv": "base_full24",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:25') = $title_text))",
+              "$cast_uv": "base_full25",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:26') = $title_text))",
+              "$cast_uv": "base_full26",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:27') = $title_text))",
+              "$cast_uv": "base_full27",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:28') = $title_text))",
+              "$cast_uv": "base_full28",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:29') = $title_text))",
+              "$cast_uv": "base_full29",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:30') = $title_text))",
+              "$cast_uv": "base_full30",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:31') = $title_text))",
+              "$cast_uv": "base_full31",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:32') = $title_text))",
+              "$cast_uv": "base_full32",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:33') = $title_text))",
+              "$cast_uv": "base_full33",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:34') = $title_text))",
+              "$cast_uv": "base_full34",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:35') = $title_text))",
+              "$cast_uv": "base_full35",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:36') = $title_text))",
+              "$cast_uv": "base_full36",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:37') = $title_text))",
+              "$cast_uv": "base_full37",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:38') = $title_text))",
+              "$cast_uv": "base_full38",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:39') = $title_text))",
+              "$cast_uv": "base_full39",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:40') = $title_text))",
+              "$cast_uv": "base_full40",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:41') = $title_text))",
+              "$cast_uv": "base_full41",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:42') = $title_text))",
+              "$cast_uv": "base_full42",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:43') = $title_text))",
+              "$cast_uv": "base_full43",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:44') = $title_text))",
+              "$cast_uv": "base_full44",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:45') = $title_text))",
+              "$cast_uv": "base_full45",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:46') = $title_text))",
+              "$cast_uv": "base_full46",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:47') = $title_text))",
+              "$cast_uv": "base_full47",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:48') = $title_text))",
+              "$cast_uv": "base_full48",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:49') = $title_text))",
+              "$cast_uv": "base_full49",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:50') = $title_text))",
+              "$cast_uv": "base_full50",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:51') = $title_text))",
+              "$cast_uv": "base_full51",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:52') = $title_text))",
+              "$cast_uv": "base_full52",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:53') = $title_text))",
+              "$cast_uv": "base_full53",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:54') = $title_text))",
+              "$cast_uv": "base_full54",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:55') = $title_text))",
+              "$cast_uv": "base_full55",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:56') = $title_text))",
+              "$cast_uv": "base_full56",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:57') = $title_text))",
+              "$cast_uv": "base_full57",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:58') = $title_text))",
+              "$cast_uv": "base_full58",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:59') = $title_text))",
+              "$cast_uv": "base_full59",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:60') = $title_text))",
+              "$cast_uv": "base_full60",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:61') = $title_text))",
+              "$cast_uv": "base_full61",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:62') = $title_text))",
+              "$cast_uv": "base_full62",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:63') = $title_text))",
+              "$cast_uv": "base_full63",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:64') = $title_text))",
+              "$cast_uv": "base_full64",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:65') = $title_text))",
+              "$cast_uv": "base_full65",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:66') = $title_text))",
+              "$cast_uv": "base_full66",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:67') = $title_text))",
+              "$cast_uv": "base_full67",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:68') = $title_text))",
+              "$cast_uv": "base_full68",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:69') = $title_text))",
+              "$cast_uv": "base_full69",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento:70') = $title_text))",
+              "$cast_uv": "base_full70",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'lancamento_hide') = $title_text))",
+              "$cast_uv": "base_full0",
+              "$set_alpha": 0
+            },
+            {
+              "requires": "(not (($title_text - 'barras_reset') = $title_text))",
+              "$cast_uv": "base_full0",
+              "$set_alpha": 0
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "channel_image": {
+    "$set_alpha|default": 0,
+    "$channel_uv|default": "base_full0",
+    "type": "image",
+    "size": [
+      84.3,
+      12
+    ],
+    "uv_size": [
+      82,
+      8
+    ],
+    "uv": "('@status_bars_uv.image_uv_' + $channel_uv)",
+    "texture": "textures/bar/canalizar",
+    "alpha": "$set_alpha",
+    "layer": 32,
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string",
+        "binding_name_override": "#channel_title_text"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not ((#channel_title_text - 'canalizar:') = #channel_title_text))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "channel_stack_panel": {
+    "type": "stack_panel",
+    "size": [
+      84.3,
+      12
+    ],
+    "controls": [
+      {
+        "channel@status_bars.channel_image": {
+          "variables": [
+            {
+              "requires": "(not (($title_text - 'canalizar:0') = $title_text))",
+              "$channel_uv": "base_full0",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:1') = $title_text))",
+              "$channel_uv": "base_full1",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:2') = $title_text))",
+              "$channel_uv": "base_full2",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:3') = $title_text))",
+              "$channel_uv": "base_full3",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:4') = $title_text))",
+              "$channel_uv": "base_full4",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:5') = $title_text))",
+              "$channel_uv": "base_full5",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:6') = $title_text))",
+              "$channel_uv": "base_full6",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:7') = $title_text))",
+              "$channel_uv": "base_full7",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:8') = $title_text))",
+              "$channel_uv": "base_full8",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:9') = $title_text))",
+              "$channel_uv": "base_full9",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:10') = $title_text))",
+              "$channel_uv": "base_full10",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:11') = $title_text))",
+              "$channel_uv": "base_full11",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:12') = $title_text))",
+              "$channel_uv": "base_full12",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:13') = $title_text))",
+              "$channel_uv": "base_full13",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:14') = $title_text))",
+              "$channel_uv": "base_full14",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:15') = $title_text))",
+              "$channel_uv": "base_full15",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:16') = $title_text))",
+              "$channel_uv": "base_full16",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:17') = $title_text))",
+              "$channel_uv": "base_full17",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:18') = $title_text))",
+              "$channel_uv": "base_full18",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:19') = $title_text))",
+              "$channel_uv": "base_full19",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:20') = $title_text))",
+              "$channel_uv": "base_full20",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:21') = $title_text))",
+              "$channel_uv": "base_full21",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:22') = $title_text))",
+              "$channel_uv": "base_full22",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:23') = $title_text))",
+              "$channel_uv": "base_full23",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:24') = $title_text))",
+              "$channel_uv": "base_full24",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:25') = $title_text))",
+              "$channel_uv": "base_full25",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:26') = $title_text))",
+              "$channel_uv": "base_full26",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:27') = $title_text))",
+              "$channel_uv": "base_full27",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:28') = $title_text))",
+              "$channel_uv": "base_full28",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:29') = $title_text))",
+              "$channel_uv": "base_full29",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:30') = $title_text))",
+              "$channel_uv": "base_full30",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:31') = $title_text))",
+              "$channel_uv": "base_full31",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:32') = $title_text))",
+              "$channel_uv": "base_full32",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:33') = $title_text))",
+              "$channel_uv": "base_full33",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:34') = $title_text))",
+              "$channel_uv": "base_full34",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:35') = $title_text))",
+              "$channel_uv": "base_full35",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:36') = $title_text))",
+              "$channel_uv": "base_full36",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:37') = $title_text))",
+              "$channel_uv": "base_full37",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:38') = $title_text))",
+              "$channel_uv": "base_full38",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:39') = $title_text))",
+              "$channel_uv": "base_full39",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:40') = $title_text))",
+              "$channel_uv": "base_full40",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:41') = $title_text))",
+              "$channel_uv": "base_full41",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:42') = $title_text))",
+              "$channel_uv": "base_full42",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:43') = $title_text))",
+              "$channel_uv": "base_full43",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:44') = $title_text))",
+              "$channel_uv": "base_full44",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:45') = $title_text))",
+              "$channel_uv": "base_full45",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:46') = $title_text))",
+              "$channel_uv": "base_full46",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:47') = $title_text))",
+              "$channel_uv": "base_full47",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:48') = $title_text))",
+              "$channel_uv": "base_full48",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:49') = $title_text))",
+              "$channel_uv": "base_full49",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:50') = $title_text))",
+              "$channel_uv": "base_full50",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:51') = $title_text))",
+              "$channel_uv": "base_full51",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:52') = $title_text))",
+              "$channel_uv": "base_full52",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:53') = $title_text))",
+              "$channel_uv": "base_full53",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:54') = $title_text))",
+              "$channel_uv": "base_full54",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:55') = $title_text))",
+              "$channel_uv": "base_full55",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:56') = $title_text))",
+              "$channel_uv": "base_full56",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:57') = $title_text))",
+              "$channel_uv": "base_full57",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:58') = $title_text))",
+              "$channel_uv": "base_full58",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:59') = $title_text))",
+              "$channel_uv": "base_full59",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:60') = $title_text))",
+              "$channel_uv": "base_full60",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:61') = $title_text))",
+              "$channel_uv": "base_full61",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:62') = $title_text))",
+              "$channel_uv": "base_full62",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:63') = $title_text))",
+              "$channel_uv": "base_full63",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:64') = $title_text))",
+              "$channel_uv": "base_full64",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:65') = $title_text))",
+              "$channel_uv": "base_full65",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:66') = $title_text))",
+              "$channel_uv": "base_full66",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:67') = $title_text))",
+              "$channel_uv": "base_full67",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:68') = $title_text))",
+              "$channel_uv": "base_full68",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:69') = $title_text))",
+              "$channel_uv": "base_full69",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar:70') = $title_text))",
+              "$channel_uv": "base_full70",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'canalizar_hide') = $title_text))",
+              "$channel_uv": "base_full0",
+              "$set_alpha": 0
+            },
+            {
+              "requires": "(not (($title_text - 'barras_reset') = $title_text))",
+              "$channel_uv": "base_full0",
+              "$set_alpha": 0
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "loading_image": {
+    "$set_alpha|default": 0,
+    "$loading_uv|default": "circular_full0",
+    "type": "image",
+    "size": [
+      16,
+      16
+    ],
+    "uv_size": [
+      32,
+      32
+    ],
+    "uv": "('@status_bars_uv.image_uv_' + $loading_uv)",
+    "texture": "textures/bar/loading_circular",
+    "alpha": "$set_alpha",
+    "layer": 30
+  },
+  "loading_stack_panel": {
+    "type": "stack_panel",
+    "size": [
+      32,
+      32
+    ],
+    "controls": [
+      {
+        "loading@status_bars.loading_image": {
+          "variables": [
+            {
+              "requires": "(not (($title_text - 'loading:0') = $title_text))",
+              "$loading_uv": "circular_full0",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:1') = $title_text))",
+              "$loading_uv": "circular_full1",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:2') = $title_text))",
+              "$loading_uv": "circular_full2",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:3') = $title_text))",
+              "$loading_uv": "circular_full3",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:4') = $title_text))",
+              "$loading_uv": "circular_full4",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:5') = $title_text))",
+              "$loading_uv": "circular_full5",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:6') = $title_text))",
+              "$loading_uv": "circular_full6",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:7') = $title_text))",
+              "$loading_uv": "circular_full7",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:8') = $title_text))",
+              "$loading_uv": "circular_full8",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:9') = $title_text))",
+              "$loading_uv": "circular_full9",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:10') = $title_text))",
+              "$loading_uv": "circular_full10",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:11') = $title_text))",
+              "$loading_uv": "circular_full11",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:12') = $title_text))",
+              "$loading_uv": "circular_full12",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:13') = $title_text))",
+              "$loading_uv": "circular_full13",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:14') = $title_text))",
+              "$loading_uv": "circular_full14",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:15') = $title_text))",
+              "$loading_uv": "circular_full15",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:16') = $title_text))",
+              "$loading_uv": "circular_full16",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:17') = $title_text))",
+              "$loading_uv": "circular_full17",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:18') = $title_text))",
+              "$loading_uv": "circular_full18",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:19') = $title_text))",
+              "$loading_uv": "circular_full19",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:20') = $title_text))",
+              "$loading_uv": "circular_full20",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:21') = $title_text))",
+              "$loading_uv": "circular_full21",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:22') = $title_text))",
+              "$loading_uv": "circular_full22",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:23') = $title_text))",
+              "$loading_uv": "circular_full23",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:24') = $title_text))",
+              "$loading_uv": "circular_full24",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:25') = $title_text))",
+              "$loading_uv": "circular_full25",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:26') = $title_text))",
+              "$loading_uv": "circular_full26",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:27') = $title_text))",
+              "$loading_uv": "circular_full27",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:28') = $title_text))",
+              "$loading_uv": "circular_full28",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:29') = $title_text))",
+              "$loading_uv": "circular_full29",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:30') = $title_text))",
+              "$loading_uv": "circular_full30",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:31') = $title_text))",
+              "$loading_uv": "circular_full31",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:32') = $title_text))",
+              "$loading_uv": "circular_full32",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:33') = $title_text))",
+              "$loading_uv": "circular_full33",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:34') = $title_text))",
+              "$loading_uv": "circular_full34",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:35') = $title_text))",
+              "$loading_uv": "circular_full35",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:36') = $title_text))",
+              "$loading_uv": "circular_full36",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:37') = $title_text))",
+              "$loading_uv": "circular_full37",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:38') = $title_text))",
+              "$loading_uv": "circular_full38",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:39') = $title_text))",
+              "$loading_uv": "circular_full39",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:40') = $title_text))",
+              "$loading_uv": "circular_full40",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:41') = $title_text))",
+              "$loading_uv": "circular_full41",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:42') = $title_text))",
+              "$loading_uv": "circular_full42",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:43') = $title_text))",
+              "$loading_uv": "circular_full43",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:44') = $title_text))",
+              "$loading_uv": "circular_full44",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:45') = $title_text))",
+              "$loading_uv": "circular_full45",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:46') = $title_text))",
+              "$loading_uv": "circular_full46",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:47') = $title_text))",
+              "$loading_uv": "circular_full47",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:48') = $title_text))",
+              "$loading_uv": "circular_full48",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:49') = $title_text))",
+              "$loading_uv": "circular_full49",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:50') = $title_text))",
+              "$loading_uv": "circular_full50",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:51') = $title_text))",
+              "$loading_uv": "circular_full51",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:52') = $title_text))",
+              "$loading_uv": "circular_full52",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:53') = $title_text))",
+              "$loading_uv": "circular_full53",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:54') = $title_text))",
+              "$loading_uv": "circular_full54",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:55') = $title_text))",
+              "$loading_uv": "circular_full55",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:56') = $title_text))",
+              "$loading_uv": "circular_full56",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:57') = $title_text))",
+              "$loading_uv": "circular_full57",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:58') = $title_text))",
+              "$loading_uv": "circular_full58",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:59') = $title_text))",
+              "$loading_uv": "circular_full59",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:60') = $title_text))",
+              "$loading_uv": "circular_full60",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:61') = $title_text))",
+              "$loading_uv": "circular_full61",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:62') = $title_text))",
+              "$loading_uv": "circular_full62",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:63') = $title_text))",
+              "$loading_uv": "circular_full63",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:64') = $title_text))",
+              "$loading_uv": "circular_full64",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:65') = $title_text))",
+              "$loading_uv": "circular_full65",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:66') = $title_text))",
+              "$loading_uv": "circular_full66",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:67') = $title_text))",
+              "$loading_uv": "circular_full67",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:68') = $title_text))",
+              "$loading_uv": "circular_full68",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:69') = $title_text))",
+              "$loading_uv": "circular_full69",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading:70') = $title_text))",
+              "$loading_uv": "circular_full70",
+              "$set_alpha": 1
+            },
+            {
+              "requires": "(not (($title_text - 'loading_hide') = $title_text))",
+              "$loading_uv": "circular_full0",
+              "$set_alpha": 0
+            },
+            {
+              "requires": "(not (($title_text - 'barras_reset') = $title_text))",
+              "$loading_uv": "circular_full0",
+              "$set_alpha": 0
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
