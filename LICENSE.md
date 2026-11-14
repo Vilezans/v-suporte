@@ -1,4 +1,4 @@
-ICENÇA DE ATRIBUIÇÃO E DIVULGAÇÃO (LAD) v1.0
+LICENÇA DE ATRIBUIÇÃO E DIVULGAÇÃO (LAD) v1.0
 Baseada na Licença MIT
 
 Copyright (c) 2026 V-Suporte
