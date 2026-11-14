@@ -1,0 +1,2649 @@
+{
+  "namespace": "wheel_menu",
+  "fade_in": {
+    "anim_type": "alpha",
+    "easing": "out_quad",
+    "duration": 0.3,
+    "from": 0,
+    "to": 1
+  },
+  "pop_size": {
+    "anim_type": "size",
+    "easing": "out_back",
+    "duration": 0.45,
+    "from": [
+      0,
+      0
+    ],
+    "to": [
+      38,
+      44
+    ]
+  },
+  "pop_hub_size": {
+    "anim_type": "size",
+    "easing": "out_back",
+    "duration": 0.45,
+    "from": [
+      0,
+      0
+    ],
+    "to": [
+      26,
+      30
+    ]
+  },
+  "pop_hub_off": {
+    "anim_type": "offset",
+    "easing": "out_back",
+    "duration": 0.45,
+    "from": [
+      0,
+      0
+    ],
+    "to": [
+      0,
+      -30
+    ]
+  },
+  "pop_off_0": {
+    "anim_type": "offset",
+    "easing": "out_back",
+    "duration": 0.45,
+    "from": [
+      0,
+      0
+    ],
+    "to": [
+      0.0,
+      -92.0
+    ]
+  },
+  "pop_off_1": {
+    "anim_type": "offset",
+    "easing": "out_back",
+    "duration": 0.45,
+    "from": [
+      0,
+      0
+    ],
+    "to": [
+      46.0,
+      -79.7
+    ]
+  },
+  "pop_off_2": {
+    "anim_type": "offset",
+    "easing": "out_back",
+    "duration": 0.45,
+    "from": [
+      0,
+      0
+    ],
+    "to": [
+      79.7,
+      -46.0
+    ]
+  },
+  "pop_off_3": {
+    "anim_type": "offset",
+    "easing": "out_back",
+    "duration": 0.45,
+    "from": [
+      0,
+      0
+    ],
+    "to": [
+      92.0,
+      0.0
+    ]
+  },
+  "pop_off_4": {
+    "anim_type": "offset",
+    "easing": "out_back",
+    "duration": 0.45,
+    "from": [
+      0,
+      0
+    ],
+    "to": [
+      79.7,
+      46.0
+    ]
+  },
+  "pop_off_5": {
+    "anim_type": "offset",
+    "easing": "out_back",
+    "duration": 0.45,
+    "from": [
+      0,
+      0
+    ],
+    "to": [
+      46.0,
+      79.7
+    ]
+  },
+  "pop_off_6": {
+    "anim_type": "offset",
+    "easing": "out_back",
+    "duration": 0.45,
+    "from": [
+      0,
+      0
+    ],
+    "to": [
+      0.0,
+      92.0
+    ]
+  },
+  "pop_off_7": {
+    "anim_type": "offset",
+    "easing": "out_back",
+    "duration": 0.45,
+    "from": [
+      0,
+      0
+    ],
+    "to": [
+      -46.0,
+      79.7
+    ]
+  },
+  "pop_off_8": {
+    "anim_type": "offset",
+    "easing": "out_back",
+    "duration": 0.45,
+    "from": [
+      0,
+      0
+    ],
+    "to": [
+      -79.7,
+      46.0
+    ]
+  },
+  "pop_off_9": {
+    "anim_type": "offset",
+    "easing": "out_back",
+    "duration": 0.45,
+    "from": [
+      0,
+      0
+    ],
+    "to": [
+      -92.0,
+      0.0
+    ]
+  },
+  "pop_off_10": {
+    "anim_type": "offset",
+    "easing": "out_back",
+    "duration": 0.45,
+    "from": [
+      0,
+      0
+    ],
+    "to": [
+      -79.7,
+      -46.0
+    ]
+  },
+  "pop_off_11": {
+    "anim_type": "offset",
+    "easing": "out_back",
+    "duration": 0.45,
+    "from": [
+      0,
+      0
+    ],
+    "to": [
+      -46.0,
+      -79.7
+    ]
+  },
+  "wheel_form_panel": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "bindings": [
+      {
+        "binding_name": "#title_text"
+      }
+    ],
+    "controls": [
+      {
+        "wheel_root": {
+          "type": "panel",
+          "size": [
+            "100%",
+            "100%"
+          ],
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_control_name": "wheel_form_panel",
+              "source_property_name": "(not ((#title_text - 'wheel_menu') = #title_text))",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "dim": {
+                "type": "image",
+                "texture": "textures/ui/wheel/dim",
+                "size": [
+                  "100%",
+                  "100%"
+                ],
+                "alpha": 0,
+                "anims": [
+                  "@wheel_menu.fade_in"
+                ],
+                "layer": 1
+              }
+            },
+            {
+              "ring": {
+                "type": "panel",
+                "size": [
+                  244,
+                  244
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "collection_name": "form_buttons",
+                "layer": 2,
+                "controls": [
+                  {
+                    "hub": {
+                      "type": "button",
+                      "size": [
+                        26,
+                        30
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "offset": [
+                        0,
+                        -30
+                      ],
+                      "$pressed_button_name": "button.menu_exit",
+                      "default_control": "default",
+                      "hover_control": "hover",
+                      "pressed_control": "pressed",
+                      "button_mappings": [
+                        {
+                          "from_button_id": "button.menu_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.menu_ok",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.controller_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        }
+                      ],
+                      "sound_name": "random.click",
+                      "sound_volume": 0.6,
+                      "layer": 5,
+                      "anims": [
+                        "@wheel_menu.pop_hub_off",
+                        "@wheel_menu.pop_hub_size"
+                      ],
+                      "controls": [
+                        {
+                          "default": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_bloqueado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "x": {
+                                  "type": "label",
+                                  "text": "wheel.hub.x",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "size": [
+                                    20,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 1.0,
+                                  "shadow": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "hover": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_bloqueado_hover",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "x": {
+                                  "type": "label",
+                                  "text": "wheel.hub.x",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "size": [
+                                    20,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 1.0,
+                                  "shadow": true
+                                }
+                              },
+                              {
+                                "title": {
+                                  "type": "label",
+                                  "text": "wheel.hub.n",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    0,
+                                    30
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 1.0,
+                                  "shadow": true
+                                }
+                              },
+                              {
+                                "desc": {
+                                  "type": "label",
+                                  "text": "wheel.hub.d",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    0,
+                                    52
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 0.85,
+                                  "shadow": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "pressed": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_bloqueado_hover",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "x": {
+                                  "type": "label",
+                                  "text": "wheel.hub.x",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    0,
+                                    0
+                                  ],
+                                  "size": [
+                                    20,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 1.0,
+                                  "shadow": true
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "btn_0": {
+                      "type": "button",
+                      "size": [
+                        38,
+                        44
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "offset": [
+                        0.0,
+                        -92.0
+                      ],
+                      "$pressed_button_name": "button.form_button_click",
+                      "default_control": "default",
+                      "hover_control": "hover",
+                      "pressed_control": "pressed",
+                      "collection_index": 0,
+                      "button_mappings": [
+                        {
+                          "from_button_id": "button.menu_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.menu_ok",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.controller_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        }
+                      ],
+                      "sound_name": "random.click",
+                      "sound_volume": 0.6,
+                      "layer": 5,
+                      "anims": [
+                        "@wheel_menu.pop_off_0",
+                        "@wheel_menu.pop_size"
+                      ],
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "form_buttons"
+                        }
+                      ],
+                      "controls": [
+                        {
+                          "default": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_stark",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "hover": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado_hover",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_stark",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              },
+                              {
+                                "title": {
+                                  "type": "label",
+                                  "text": "wheel.0.n",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    -0.0,
+                                    92.0
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 1.0,
+                                  "shadow": true
+                                }
+                              },
+                              {
+                                "desc": {
+                                  "type": "label",
+                                  "text": "wheel.0.d",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    -0.0,
+                                    114.0
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 0.85,
+                                  "shadow": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "pressed": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_selecionado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_stark",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "btn_1": {
+                      "type": "button",
+                      "size": [
+                        38,
+                        44
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "offset": [
+                        46.0,
+                        -79.7
+                      ],
+                      "$pressed_button_name": "button.form_button_click",
+                      "default_control": "default",
+                      "hover_control": "hover",
+                      "pressed_control": "pressed",
+                      "collection_index": 1,
+                      "button_mappings": [
+                        {
+                          "from_button_id": "button.menu_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.menu_ok",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.controller_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        }
+                      ],
+                      "sound_name": "random.click",
+                      "sound_volume": 0.6,
+                      "layer": 5,
+                      "anims": [
+                        "@wheel_menu.pop_off_1",
+                        "@wheel_menu.pop_size"
+                      ],
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "form_buttons"
+                        }
+                      ],
+                      "controls": [
+                        {
+                          "default": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_size_manipulation",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "hover": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado_hover",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_size_manipulation",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              },
+                              {
+                                "title": {
+                                  "type": "label",
+                                  "text": "wheel.1.n",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    -46.0,
+                                    79.7
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 1.0,
+                                  "shadow": true
+                                }
+                              },
+                              {
+                                "desc": {
+                                  "type": "label",
+                                  "text": "wheel.1.d",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    -46.0,
+                                    101.7
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 0.85,
+                                  "shadow": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "pressed": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_selecionado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_size_manipulation",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "btn_2": {
+                      "type": "button",
+                      "size": [
+                        38,
+                        44
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "offset": [
+                        79.7,
+                        -46.0
+                      ],
+                      "$pressed_button_name": "button.form_button_click",
+                      "default_control": "default",
+                      "hover_control": "hover",
+                      "pressed_control": "pressed",
+                      "collection_index": 2,
+                      "button_mappings": [
+                        {
+                          "from_button_id": "button.menu_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.menu_ok",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.controller_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        }
+                      ],
+                      "sound_name": "random.click",
+                      "sound_volume": 0.6,
+                      "layer": 5,
+                      "anims": [
+                        "@wheel_menu.pop_off_2",
+                        "@wheel_menu.pop_size"
+                      ],
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "form_buttons"
+                        }
+                      ],
+                      "controls": [
+                        {
+                          "default": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_ranged",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "hover": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado_hover",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_ranged",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              },
+                              {
+                                "title": {
+                                  "type": "label",
+                                  "text": "wheel.2.n",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    -79.7,
+                                    46.0
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 1.0,
+                                  "shadow": true
+                                }
+                              },
+                              {
+                                "desc": {
+                                  "type": "label",
+                                  "text": "wheel.2.d",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    -79.7,
+                                    68.0
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 0.85,
+                                  "shadow": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "pressed": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_selecionado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_ranged",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "btn_3": {
+                      "type": "button",
+                      "size": [
+                        38,
+                        44
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "offset": [
+                        92.0,
+                        0.0
+                      ],
+                      "$pressed_button_name": "button.form_button_click",
+                      "default_control": "default",
+                      "hover_control": "hover",
+                      "pressed_control": "pressed",
+                      "collection_index": 3,
+                      "button_mappings": [
+                        {
+                          "from_button_id": "button.menu_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.menu_ok",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.controller_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        }
+                      ],
+                      "sound_name": "random.click",
+                      "sound_volume": 0.6,
+                      "layer": 5,
+                      "anims": [
+                        "@wheel_menu.pop_off_3",
+                        "@wheel_menu.pop_size"
+                      ],
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "form_buttons"
+                        }
+                      ],
+                      "controls": [
+                        {
+                          "default": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_ranged2",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "hover": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado_hover",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_ranged2",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              },
+                              {
+                                "title": {
+                                  "type": "label",
+                                  "text": "wheel.3.n",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    -92.0,
+                                    0.0
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 1.0,
+                                  "shadow": true
+                                }
+                              },
+                              {
+                                "desc": {
+                                  "type": "label",
+                                  "text": "wheel.3.d",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    -92.0,
+                                    22.0
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 0.85,
+                                  "shadow": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "pressed": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_selecionado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_ranged2",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "btn_4": {
+                      "type": "button",
+                      "size": [
+                        38,
+                        44
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "offset": [
+                        79.7,
+                        46.0
+                      ],
+                      "$pressed_button_name": "button.form_button_click",
+                      "default_control": "default",
+                      "hover_control": "hover",
+                      "pressed_control": "pressed",
+                      "collection_index": 4,
+                      "button_mappings": [
+                        {
+                          "from_button_id": "button.menu_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.menu_ok",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.controller_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        }
+                      ],
+                      "sound_name": "random.click",
+                      "sound_volume": 0.6,
+                      "layer": 5,
+                      "anims": [
+                        "@wheel_menu.pop_off_4",
+                        "@wheel_menu.pop_size"
+                      ],
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "form_buttons"
+                        }
+                      ],
+                      "controls": [
+                        {
+                          "default": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_marksmanship",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "hover": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado_hover",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_marksmanship",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              },
+                              {
+                                "title": {
+                                  "type": "label",
+                                  "text": "wheel.4.n",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    -79.7,
+                                    -46.0
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 1.0,
+                                  "shadow": true
+                                }
+                              },
+                              {
+                                "desc": {
+                                  "type": "label",
+                                  "text": "wheel.4.d",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    -79.7,
+                                    -24.0
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 0.85,
+                                  "shadow": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "pressed": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_selecionado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_marksmanship",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "btn_5": {
+                      "type": "button",
+                      "size": [
+                        38,
+                        44
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "offset": [
+                        46.0,
+                        79.7
+                      ],
+                      "$pressed_button_name": "button.form_button_click",
+                      "default_control": "default",
+                      "hover_control": "hover",
+                      "pressed_control": "pressed",
+                      "collection_index": 5,
+                      "button_mappings": [
+                        {
+                          "from_button_id": "button.menu_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.menu_ok",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.controller_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        }
+                      ],
+                      "sound_name": "random.click",
+                      "sound_volume": 0.6,
+                      "layer": 5,
+                      "anims": [
+                        "@wheel_menu.pop_off_5",
+                        "@wheel_menu.pop_size"
+                      ],
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "form_buttons"
+                        }
+                      ],
+                      "controls": [
+                        {
+                          "default": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_ranged3",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "hover": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado_hover",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_ranged3",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              },
+                              {
+                                "title": {
+                                  "type": "label",
+                                  "text": "wheel.5.n",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    -46.0,
+                                    -79.7
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 1.0,
+                                  "shadow": true
+                                }
+                              },
+                              {
+                                "desc": {
+                                  "type": "label",
+                                  "text": "wheel.5.d",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    -46.0,
+                                    -57.7
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 0.85,
+                                  "shadow": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "pressed": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_selecionado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_ranged3",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "btn_6": {
+                      "type": "button",
+                      "size": [
+                        38,
+                        44
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "offset": [
+                        0.0,
+                        92.0
+                      ],
+                      "$pressed_button_name": "button.form_button_click",
+                      "default_control": "default",
+                      "hover_control": "hover",
+                      "pressed_control": "pressed",
+                      "collection_index": 6,
+                      "button_mappings": [
+                        {
+                          "from_button_id": "button.menu_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.menu_ok",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.controller_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        }
+                      ],
+                      "sound_name": "random.click",
+                      "sound_volume": 0.6,
+                      "layer": 5,
+                      "anims": [
+                        "@wheel_menu.pop_off_6",
+                        "@wheel_menu.pop_size"
+                      ],
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "form_buttons"
+                        }
+                      ],
+                      "controls": [
+                        {
+                          "default": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_defense",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "hover": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado_hover",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_defense",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              },
+                              {
+                                "title": {
+                                  "type": "label",
+                                  "text": "wheel.6.n",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    -0.0,
+                                    -92.0
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 1.0,
+                                  "shadow": true
+                                }
+                              },
+                              {
+                                "desc": {
+                                  "type": "label",
+                                  "text": "wheel.6.d",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    -0.0,
+                                    -70.0
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 0.85,
+                                  "shadow": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "pressed": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_selecionado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_defense",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "btn_7": {
+                      "type": "button",
+                      "size": [
+                        38,
+                        44
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "offset": [
+                        -46.0,
+                        79.7
+                      ],
+                      "$pressed_button_name": "button.form_button_click",
+                      "default_control": "default",
+                      "hover_control": "hover",
+                      "pressed_control": "pressed",
+                      "collection_index": 7,
+                      "button_mappings": [
+                        {
+                          "from_button_id": "button.menu_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.menu_ok",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.controller_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        }
+                      ],
+                      "sound_name": "random.click",
+                      "sound_volume": 0.6,
+                      "layer": 5,
+                      "anims": [
+                        "@wheel_menu.pop_off_7",
+                        "@wheel_menu.pop_size"
+                      ],
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "form_buttons"
+                        }
+                      ],
+                      "controls": [
+                        {
+                          "default": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_defense3",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "hover": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado_hover",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_defense3",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              },
+                              {
+                                "title": {
+                                  "type": "label",
+                                  "text": "wheel.7.n",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    46.0,
+                                    -79.7
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 1.0,
+                                  "shadow": true
+                                }
+                              },
+                              {
+                                "desc": {
+                                  "type": "label",
+                                  "text": "wheel.7.d",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    46.0,
+                                    -57.7
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 0.85,
+                                  "shadow": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "pressed": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_selecionado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_defense3",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "btn_8": {
+                      "type": "button",
+                      "size": [
+                        38,
+                        44
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "offset": [
+                        -79.7,
+                        46.0
+                      ],
+                      "$pressed_button_name": "button.form_button_click",
+                      "default_control": "default",
+                      "hover_control": "hover",
+                      "pressed_control": "pressed",
+                      "collection_index": 8,
+                      "button_mappings": [
+                        {
+                          "from_button_id": "button.menu_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.menu_ok",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.controller_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        }
+                      ],
+                      "sound_name": "random.click",
+                      "sound_volume": 0.6,
+                      "layer": 5,
+                      "anims": [
+                        "@wheel_menu.pop_off_8",
+                        "@wheel_menu.pop_size"
+                      ],
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "form_buttons"
+                        }
+                      ],
+                      "controls": [
+                        {
+                          "default": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_defense2",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "hover": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado_hover",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_defense2",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              },
+                              {
+                                "title": {
+                                  "type": "label",
+                                  "text": "wheel.8.n",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    79.7,
+                                    -46.0
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 1.0,
+                                  "shadow": true
+                                }
+                              },
+                              {
+                                "desc": {
+                                  "type": "label",
+                                  "text": "wheel.8.d",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    79.7,
+                                    -24.0
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 0.85,
+                                  "shadow": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "pressed": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_selecionado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_defense2",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "btn_9": {
+                      "type": "button",
+                      "size": [
+                        38,
+                        44
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "offset": [
+                        -92.0,
+                        0.0
+                      ],
+                      "$pressed_button_name": "button.form_button_click",
+                      "default_control": "default",
+                      "hover_control": "hover",
+                      "pressed_control": "pressed",
+                      "collection_index": 9,
+                      "button_mappings": [
+                        {
+                          "from_button_id": "button.menu_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.menu_ok",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.controller_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        }
+                      ],
+                      "sound_name": "random.click",
+                      "sound_volume": 0.6,
+                      "layer": 5,
+                      "anims": [
+                        "@wheel_menu.pop_off_9",
+                        "@wheel_menu.pop_size"
+                      ],
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "form_buttons"
+                        }
+                      ],
+                      "controls": [
+                        {
+                          "default": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_speed_force",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "hover": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado_hover",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_speed_force",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              },
+                              {
+                                "title": {
+                                  "type": "label",
+                                  "text": "wheel.9.n",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    92.0,
+                                    0.0
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 1.0,
+                                  "shadow": true
+                                }
+                              },
+                              {
+                                "desc": {
+                                  "type": "label",
+                                  "text": "wheel.9.d",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    92.0,
+                                    22.0
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 0.85,
+                                  "shadow": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "pressed": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_selecionado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_speed_force",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "btn_10": {
+                      "type": "button",
+                      "size": [
+                        38,
+                        44
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "offset": [
+                        -79.7,
+                        -46.0
+                      ],
+                      "$pressed_button_name": "button.form_button_click",
+                      "default_control": "default",
+                      "hover_control": "hover",
+                      "pressed_control": "pressed",
+                      "collection_index": 10,
+                      "button_mappings": [
+                        {
+                          "from_button_id": "button.menu_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.menu_ok",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.controller_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        }
+                      ],
+                      "sound_name": "random.click",
+                      "sound_volume": 0.6,
+                      "layer": 5,
+                      "anims": [
+                        "@wheel_menu.pop_off_10",
+                        "@wheel_menu.pop_size"
+                      ],
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "form_buttons"
+                        }
+                      ],
+                      "controls": [
+                        {
+                          "default": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_regeneration",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "hover": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado_hover",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_regeneration",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              },
+                              {
+                                "title": {
+                                  "type": "label",
+                                  "text": "wheel.10.n",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    79.7,
+                                    46.0
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 1.0,
+                                  "shadow": true
+                                }
+                              },
+                              {
+                                "desc": {
+                                  "type": "label",
+                                  "text": "wheel.10.d",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    79.7,
+                                    68.0
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 0.85,
+                                  "shadow": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "pressed": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_selecionado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_regeneration",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "btn_11": {
+                      "type": "button",
+                      "size": [
+                        38,
+                        44
+                      ],
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "offset": [
+                        -46.0,
+                        -79.7
+                      ],
+                      "$pressed_button_name": "button.form_button_click",
+                      "default_control": "default",
+                      "hover_control": "hover",
+                      "pressed_control": "pressed",
+                      "collection_index": 11,
+                      "button_mappings": [
+                        {
+                          "from_button_id": "button.menu_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.menu_ok",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.controller_select",
+                          "to_button_id": "$pressed_button_name",
+                          "mapping_type": "pressed"
+                        }
+                      ],
+                      "sound_name": "random.click",
+                      "sound_volume": 0.6,
+                      "layer": 5,
+                      "anims": [
+                        "@wheel_menu.pop_off_11",
+                        "@wheel_menu.pop_size"
+                      ],
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "form_buttons"
+                        }
+                      ],
+                      "controls": [
+                        {
+                          "default": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_traversal",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "hover": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_desbloqueado_hover",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_traversal",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              },
+                              {
+                                "title": {
+                                  "type": "label",
+                                  "text": "wheel.11.n",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    46.0,
+                                    79.7
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 1.0,
+                                  "shadow": true
+                                }
+                              },
+                              {
+                                "desc": {
+                                  "type": "label",
+                                  "text": "wheel.11.d",
+                                  "layer": 30,
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "offset": [
+                                    46.0,
+                                    101.7
+                                  ],
+                                  "size": [
+                                    96,
+                                    "default"
+                                  ],
+                                  "text_alignment": "center",
+                                  "font_scale_factor": 0.85,
+                                  "shadow": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "pressed": {
+                            "type": "panel",
+                            "controls": [
+                              {
+                                "bg": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/hexagono_selecionado",
+                                  "size": [
+                                    "100%",
+                                    "100%"
+                                  ]
+                                }
+                              },
+                              {
+                                "icon": {
+                                  "type": "image",
+                                  "texture": "textures/ui/wheel/icon_traversal",
+                                  "size": [
+                                    "56%",
+                                    "48%"
+                                  ],
+                                  "anchor_from": "center",
+                                  "anchor_to": "center",
+                                  "layer": 3
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
