@@ -1,0 +1,1362 @@
+{
+    "name":  "Solo-V Legion Artifact Gold Glyphs",
+    "texture":  "font/glyph_E5.png",
+    "color":  {
+                  "hex":  "#E6CC80",
+                  "rgb":  [
+                              230,
+                              204,
+                              128
+                          ]
+              },
+    "source_range":  "Latin-1 U+0020..U+00FF",
+    "glyph_range":  "Private Use U+E500..U+E5DF",
+    "formula":  "glyph_codepoint = U+E500 + (source_codepoint - U+0020)",
+    "warning":  "Do not apply a section-sign color code to these glyphs; use default white/reset so the embedded RGB remains #E6CC80.",
+    "characters":  [
+                       {
+                           "source_code":  "U+0020",
+                           "character":  " ",
+                           "glyph_code":  "U+E500",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0021",
+                           "character":  "!",
+                           "glyph_code":  "U+E501",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0022",
+                           "character":  "\"",
+                           "glyph_code":  "U+E502",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0023",
+                           "character":  "#",
+                           "glyph_code":  "U+E503",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0024",
+                           "character":  "$",
+                           "glyph_code":  "U+E504",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0025",
+                           "character":  "%",
+                           "glyph_code":  "U+E505",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0026",
+                           "character":  "\u0026",
+                           "glyph_code":  "U+E506",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0027",
+                           "character":  "\u0027",
+                           "glyph_code":  "U+E507",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0028",
+                           "character":  "(",
+                           "glyph_code":  "U+E508",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0029",
+                           "character":  ")",
+                           "glyph_code":  "U+E509",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+002A",
+                           "character":  "*",
+                           "glyph_code":  "U+E50A",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+002B",
+                           "character":  "+",
+                           "glyph_code":  "U+E50B",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+002C",
+                           "character":  ",",
+                           "glyph_code":  "U+E50C",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+002D",
+                           "character":  "-",
+                           "glyph_code":  "U+E50D",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+002E",
+                           "character":  ".",
+                           "glyph_code":  "U+E50E",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+002F",
+                           "character":  "/",
+                           "glyph_code":  "U+E50F",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0030",
+                           "character":  "0",
+                           "glyph_code":  "U+E510",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0031",
+                           "character":  "1",
+                           "glyph_code":  "U+E511",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0032",
+                           "character":  "2",
+                           "glyph_code":  "U+E512",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0033",
+                           "character":  "3",
+                           "glyph_code":  "U+E513",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0034",
+                           "character":  "4",
+                           "glyph_code":  "U+E514",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0035",
+                           "character":  "5",
+                           "glyph_code":  "U+E515",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0036",
+                           "character":  "6",
+                           "glyph_code":  "U+E516",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0037",
+                           "character":  "7",
+                           "glyph_code":  "U+E517",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0038",
+                           "character":  "8",
+                           "glyph_code":  "U+E518",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0039",
+                           "character":  "9",
+                           "glyph_code":  "U+E519",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+003A",
+                           "character":  ":",
+                           "glyph_code":  "U+E51A",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+003B",
+                           "character":  ";",
+                           "glyph_code":  "U+E51B",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+003C",
+                           "character":  "\u003c",
+                           "glyph_code":  "U+E51C",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+003D",
+                           "character":  "=",
+                           "glyph_code":  "U+E51D",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+003E",
+                           "character":  "\u003e",
+                           "glyph_code":  "U+E51E",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+003F",
+                           "character":  "?",
+                           "glyph_code":  "U+E51F",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0040",
+                           "character":  "@",
+                           "glyph_code":  "U+E520",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0041",
+                           "character":  "A",
+                           "glyph_code":  "U+E521",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0042",
+                           "character":  "B",
+                           "glyph_code":  "U+E522",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0043",
+                           "character":  "C",
+                           "glyph_code":  "U+E523",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0044",
+                           "character":  "D",
+                           "glyph_code":  "U+E524",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0045",
+                           "character":  "E",
+                           "glyph_code":  "U+E525",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0046",
+                           "character":  "F",
+                           "glyph_code":  "U+E526",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0047",
+                           "character":  "G",
+                           "glyph_code":  "U+E527",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0048",
+                           "character":  "H",
+                           "glyph_code":  "U+E528",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0049",
+                           "character":  "I",
+                           "glyph_code":  "U+E529",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+004A",
+                           "character":  "J",
+                           "glyph_code":  "U+E52A",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+004B",
+                           "character":  "K",
+                           "glyph_code":  "U+E52B",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+004C",
+                           "character":  "L",
+                           "glyph_code":  "U+E52C",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+004D",
+                           "character":  "M",
+                           "glyph_code":  "U+E52D",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+004E",
+                           "character":  "N",
+                           "glyph_code":  "U+E52E",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+004F",
+                           "character":  "O",
+                           "glyph_code":  "U+E52F",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0050",
+                           "character":  "P",
+                           "glyph_code":  "U+E530",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0051",
+                           "character":  "Q",
+                           "glyph_code":  "U+E531",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0052",
+                           "character":  "R",
+                           "glyph_code":  "U+E532",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0053",
+                           "character":  "S",
+                           "glyph_code":  "U+E533",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0054",
+                           "character":  "T",
+                           "glyph_code":  "U+E534",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0055",
+                           "character":  "U",
+                           "glyph_code":  "U+E535",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0056",
+                           "character":  "V",
+                           "glyph_code":  "U+E536",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0057",
+                           "character":  "W",
+                           "glyph_code":  "U+E537",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0058",
+                           "character":  "X",
+                           "glyph_code":  "U+E538",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0059",
+                           "character":  "Y",
+                           "glyph_code":  "U+E539",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+005A",
+                           "character":  "Z",
+                           "glyph_code":  "U+E53A",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+005B",
+                           "character":  "[",
+                           "glyph_code":  "U+E53B",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+005C",
+                           "character":  "\\",
+                           "glyph_code":  "U+E53C",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+005D",
+                           "character":  "]",
+                           "glyph_code":  "U+E53D",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+005E",
+                           "character":  "^",
+                           "glyph_code":  "U+E53E",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+005F",
+                           "character":  "_",
+                           "glyph_code":  "U+E53F",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0060",
+                           "character":  "`",
+                           "glyph_code":  "U+E540",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0061",
+                           "character":  "a",
+                           "glyph_code":  "U+E541",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0062",
+                           "character":  "b",
+                           "glyph_code":  "U+E542",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0063",
+                           "character":  "c",
+                           "glyph_code":  "U+E543",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0064",
+                           "character":  "d",
+                           "glyph_code":  "U+E544",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0065",
+                           "character":  "e",
+                           "glyph_code":  "U+E545",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0066",
+                           "character":  "f",
+                           "glyph_code":  "U+E546",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0067",
+                           "character":  "g",
+                           "glyph_code":  "U+E547",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0068",
+                           "character":  "h",
+                           "glyph_code":  "U+E548",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0069",
+                           "character":  "i",
+                           "glyph_code":  "U+E549",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+006A",
+                           "character":  "j",
+                           "glyph_code":  "U+E54A",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+006B",
+                           "character":  "k",
+                           "glyph_code":  "U+E54B",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+006C",
+                           "character":  "l",
+                           "glyph_code":  "U+E54C",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+006D",
+                           "character":  "m",
+                           "glyph_code":  "U+E54D",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+006E",
+                           "character":  "n",
+                           "glyph_code":  "U+E54E",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+006F",
+                           "character":  "o",
+                           "glyph_code":  "U+E54F",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0070",
+                           "character":  "p",
+                           "glyph_code":  "U+E550",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0071",
+                           "character":  "q",
+                           "glyph_code":  "U+E551",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0072",
+                           "character":  "r",
+                           "glyph_code":  "U+E552",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0073",
+                           "character":  "s",
+                           "glyph_code":  "U+E553",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0074",
+                           "character":  "t",
+                           "glyph_code":  "U+E554",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0075",
+                           "character":  "u",
+                           "glyph_code":  "U+E555",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0076",
+                           "character":  "v",
+                           "glyph_code":  "U+E556",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0077",
+                           "character":  "w",
+                           "glyph_code":  "U+E557",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0078",
+                           "character":  "x",
+                           "glyph_code":  "U+E558",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0079",
+                           "character":  "y",
+                           "glyph_code":  "U+E559",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+007A",
+                           "character":  "z",
+                           "glyph_code":  "U+E55A",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+007B",
+                           "character":  "{",
+                           "glyph_code":  "U+E55B",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+007C",
+                           "character":  "|",
+                           "glyph_code":  "U+E55C",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+007D",
+                           "character":  "}",
+                           "glyph_code":  "U+E55D",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+007E",
+                           "character":  "~",
+                           "glyph_code":  "U+E55E",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+007F",
+                           "character":  "",
+                           "glyph_code":  "U+E55F",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0080",
+                           "character":  "",
+                           "glyph_code":  "U+E560",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0081",
+                           "character":  "",
+                           "glyph_code":  "U+E561",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0082",
+                           "character":  "",
+                           "glyph_code":  "U+E562",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0083",
+                           "character":  "",
+                           "glyph_code":  "U+E563",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0084",
+                           "character":  "",
+                           "glyph_code":  "U+E564",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0085",
+                           "character":  "\u0085",
+                           "glyph_code":  "U+E565",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0086",
+                           "character":  "",
+                           "glyph_code":  "U+E566",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0087",
+                           "character":  "",
+                           "glyph_code":  "U+E567",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0088",
+                           "character":  "",
+                           "glyph_code":  "U+E568",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0089",
+                           "character":  "",
+                           "glyph_code":  "U+E569",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+008A",
+                           "character":  "",
+                           "glyph_code":  "U+E56A",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+008B",
+                           "character":  "",
+                           "glyph_code":  "U+E56B",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+008C",
+                           "character":  "",
+                           "glyph_code":  "U+E56C",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+008D",
+                           "character":  "",
+                           "glyph_code":  "U+E56D",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+008E",
+                           "character":  "",
+                           "glyph_code":  "U+E56E",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+008F",
+                           "character":  "",
+                           "glyph_code":  "U+E56F",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0090",
+                           "character":  "",
+                           "glyph_code":  "U+E570",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0091",
+                           "character":  "",
+                           "glyph_code":  "U+E571",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0092",
+                           "character":  "",
+                           "glyph_code":  "U+E572",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0093",
+                           "character":  "",
+                           "glyph_code":  "U+E573",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0094",
+                           "character":  "",
+                           "glyph_code":  "U+E574",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0095",
+                           "character":  "",
+                           "glyph_code":  "U+E575",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0096",
+                           "character":  "",
+                           "glyph_code":  "U+E576",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0097",
+                           "character":  "",
+                           "glyph_code":  "U+E577",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0098",
+                           "character":  "",
+                           "glyph_code":  "U+E578",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+0099",
+                           "character":  "",
+                           "glyph_code":  "U+E579",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+009A",
+                           "character":  "",
+                           "glyph_code":  "U+E57A",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+009B",
+                           "character":  "",
+                           "glyph_code":  "U+E57B",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+009C",
+                           "character":  "",
+                           "glyph_code":  "U+E57C",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+009D",
+                           "character":  "",
+                           "glyph_code":  "U+E57D",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+009E",
+                           "character":  "",
+                           "glyph_code":  "U+E57E",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+009F",
+                           "character":  "",
+                           "glyph_code":  "U+E57F",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00A0",
+                           "character":  " ",
+                           "glyph_code":  "U+E580",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00A1",
+                           "character":  "¡",
+                           "glyph_code":  "U+E581",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00A2",
+                           "character":  "¢",
+                           "glyph_code":  "U+E582",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00A3",
+                           "character":  "£",
+                           "glyph_code":  "U+E583",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00A4",
+                           "character":  "¤",
+                           "glyph_code":  "U+E584",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00A5",
+                           "character":  "¥",
+                           "glyph_code":  "U+E585",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00A6",
+                           "character":  "¦",
+                           "glyph_code":  "U+E586",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00A7",
+                           "character":  "§",
+                           "glyph_code":  "U+E587",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00A8",
+                           "character":  "¨",
+                           "glyph_code":  "U+E588",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00A9",
+                           "character":  "©",
+                           "glyph_code":  "U+E589",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00AA",
+                           "character":  "ª",
+                           "glyph_code":  "U+E58A",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00AB",
+                           "character":  "«",
+                           "glyph_code":  "U+E58B",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00AC",
+                           "character":  "¬",
+                           "glyph_code":  "U+E58C",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00AD",
+                           "character":  "­",
+                           "glyph_code":  "U+E58D",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00AE",
+                           "character":  "®",
+                           "glyph_code":  "U+E58E",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00AF",
+                           "character":  "¯",
+                           "glyph_code":  "U+E58F",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00B0",
+                           "character":  "°",
+                           "glyph_code":  "U+E590",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00B1",
+                           "character":  "±",
+                           "glyph_code":  "U+E591",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00B2",
+                           "character":  "²",
+                           "glyph_code":  "U+E592",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00B3",
+                           "character":  "³",
+                           "glyph_code":  "U+E593",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00B4",
+                           "character":  "´",
+                           "glyph_code":  "U+E594",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00B5",
+                           "character":  "µ",
+                           "glyph_code":  "U+E595",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00B6",
+                           "character":  "¶",
+                           "glyph_code":  "U+E596",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00B7",
+                           "character":  "·",
+                           "glyph_code":  "U+E597",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00B8",
+                           "character":  "¸",
+                           "glyph_code":  "U+E598",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00B9",
+                           "character":  "¹",
+                           "glyph_code":  "U+E599",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00BA",
+                           "character":  "º",
+                           "glyph_code":  "U+E59A",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00BB",
+                           "character":  "»",
+                           "glyph_code":  "U+E59B",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00BC",
+                           "character":  "¼",
+                           "glyph_code":  "U+E59C",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00BD",
+                           "character":  "½",
+                           "glyph_code":  "U+E59D",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00BE",
+                           "character":  "¾",
+                           "glyph_code":  "U+E59E",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00BF",
+                           "character":  "¿",
+                           "glyph_code":  "U+E59F",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00C0",
+                           "character":  "À",
+                           "glyph_code":  "U+E5A0",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00C1",
+                           "character":  "Á",
+                           "glyph_code":  "U+E5A1",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00C2",
+                           "character":  "Â",
+                           "glyph_code":  "U+E5A2",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00C3",
+                           "character":  "Ã",
+                           "glyph_code":  "U+E5A3",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00C4",
+                           "character":  "Ä",
+                           "glyph_code":  "U+E5A4",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00C5",
+                           "character":  "Å",
+                           "glyph_code":  "U+E5A5",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00C6",
+                           "character":  "Æ",
+                           "glyph_code":  "U+E5A6",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00C7",
+                           "character":  "Ç",
+                           "glyph_code":  "U+E5A7",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00C8",
+                           "character":  "È",
+                           "glyph_code":  "U+E5A8",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00C9",
+                           "character":  "É",
+                           "glyph_code":  "U+E5A9",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00CA",
+                           "character":  "Ê",
+                           "glyph_code":  "U+E5AA",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00CB",
+                           "character":  "Ë",
+                           "glyph_code":  "U+E5AB",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00CC",
+                           "character":  "Ì",
+                           "glyph_code":  "U+E5AC",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00CD",
+                           "character":  "Í",
+                           "glyph_code":  "U+E5AD",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00CE",
+                           "character":  "Î",
+                           "glyph_code":  "U+E5AE",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00CF",
+                           "character":  "Ï",
+                           "glyph_code":  "U+E5AF",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00D0",
+                           "character":  "Ð",
+                           "glyph_code":  "U+E5B0",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00D1",
+                           "character":  "Ñ",
+                           "glyph_code":  "U+E5B1",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00D2",
+                           "character":  "Ò",
+                           "glyph_code":  "U+E5B2",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00D3",
+                           "character":  "Ó",
+                           "glyph_code":  "U+E5B3",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00D4",
+                           "character":  "Ô",
+                           "glyph_code":  "U+E5B4",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00D5",
+                           "character":  "Õ",
+                           "glyph_code":  "U+E5B5",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00D6",
+                           "character":  "Ö",
+                           "glyph_code":  "U+E5B6",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00D7",
+                           "character":  "×",
+                           "glyph_code":  "U+E5B7",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00D8",
+                           "character":  "Ø",
+                           "glyph_code":  "U+E5B8",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00D9",
+                           "character":  "Ù",
+                           "glyph_code":  "U+E5B9",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00DA",
+                           "character":  "Ú",
+                           "glyph_code":  "U+E5BA",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00DB",
+                           "character":  "Û",
+                           "glyph_code":  "U+E5BB",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00DC",
+                           "character":  "Ü",
+                           "glyph_code":  "U+E5BC",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00DD",
+                           "character":  "Ý",
+                           "glyph_code":  "U+E5BD",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00DE",
+                           "character":  "Þ",
+                           "glyph_code":  "U+E5BE",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00DF",
+                           "character":  "ß",
+                           "glyph_code":  "U+E5BF",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00E0",
+                           "character":  "à",
+                           "glyph_code":  "U+E5C0",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00E1",
+                           "character":  "á",
+                           "glyph_code":  "U+E5C1",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00E2",
+                           "character":  "â",
+                           "glyph_code":  "U+E5C2",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00E3",
+                           "character":  "ã",
+                           "glyph_code":  "U+E5C3",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00E4",
+                           "character":  "ä",
+                           "glyph_code":  "U+E5C4",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00E5",
+                           "character":  "å",
+                           "glyph_code":  "U+E5C5",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00E6",
+                           "character":  "æ",
+                           "glyph_code":  "U+E5C6",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00E7",
+                           "character":  "ç",
+                           "glyph_code":  "U+E5C7",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00E8",
+                           "character":  "è",
+                           "glyph_code":  "U+E5C8",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00E9",
+                           "character":  "é",
+                           "glyph_code":  "U+E5C9",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00EA",
+                           "character":  "ê",
+                           "glyph_code":  "U+E5CA",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00EB",
+                           "character":  "ë",
+                           "glyph_code":  "U+E5CB",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00EC",
+                           "character":  "ì",
+                           "glyph_code":  "U+E5CC",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00ED",
+                           "character":  "í",
+                           "glyph_code":  "U+E5CD",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00EE",
+                           "character":  "î",
+                           "glyph_code":  "U+E5CE",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00EF",
+                           "character":  "ï",
+                           "glyph_code":  "U+E5CF",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00F0",
+                           "character":  "ð",
+                           "glyph_code":  "U+E5D0",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00F1",
+                           "character":  "ñ",
+                           "glyph_code":  "U+E5D1",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00F2",
+                           "character":  "ò",
+                           "glyph_code":  "U+E5D2",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00F3",
+                           "character":  "ó",
+                           "glyph_code":  "U+E5D3",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00F4",
+                           "character":  "ô",
+                           "glyph_code":  "U+E5D4",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00F5",
+                           "character":  "õ",
+                           "glyph_code":  "U+E5D5",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00F6",
+                           "character":  "ö",
+                           "glyph_code":  "U+E5D6",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00F7",
+                           "character":  "÷",
+                           "glyph_code":  "U+E5D7",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00F8",
+                           "character":  "ø",
+                           "glyph_code":  "U+E5D8",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00F9",
+                           "character":  "ù",
+                           "glyph_code":  "U+E5D9",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00FA",
+                           "character":  "ú",
+                           "glyph_code":  "U+E5DA",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00FB",
+                           "character":  "û",
+                           "glyph_code":  "U+E5DB",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00FC",
+                           "character":  "ü",
+                           "glyph_code":  "U+E5DC",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00FD",
+                           "character":  "ý",
+                           "glyph_code":  "U+E5DD",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00FE",
+                           "character":  "þ",
+                           "glyph_code":  "U+E5DE",
+                           "glyph":  ""
+                       },
+                       {
+                           "source_code":  "U+00FF",
+                           "character":  "ÿ",
+                           "glyph_code":  "U+E5DF",
+                           "glyph":  ""
+                       }
+                   ]
+}
