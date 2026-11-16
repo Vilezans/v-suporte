@@ -1,0 +1,80 @@
+{
+  "materials": {
+    "version": "1.0.0",
+
+    "impact_frame1:entity_emissive_alpha": {
+      "+defines": ["ALPHA_TEST"],
+      "depthFunc": "GreaterEqual",
+      "-defines": ["FANCY","ENABLE_FOG","ENABLE_LIGHT"],
+      "+states": ["Blending", "EnableStencilTest", "StencilWrite","DisableDepthWrite"],
+      "frontFace": { "stencilFunc": "NotEqual" },
+      "backFace": { "stencilFunc": "NotEqual" },
+      "stencilRef": 1
+    },
+
+    "impact_frame2:entity_alphatest": {
+      "+states": ["EnableStencilTest","StencilWrite","DisableDepthWrite","InvertCulling"],
+      "depthFunc": "Always",
+      "-states": ["DisableCulling"],
+      "-defines": ["FANCY","ENABLE_FOG","ENABLE_LIGHT"],
+      "stencilRef": 1,
+      "stencilReadMask": 1
+    },
+
+    "outline_base:entity_alphatest": {
+      "+states": ["EnableStencilTest", "StencilWrite"],
+      "frontFace": {
+        "stencilFunc": "Always",
+        "stencilFailOp": "Replace",
+        "stencilDepthFailOp": "Replace",
+        "stencilPassOp": "Replace"
+      },
+      "backFace": {
+        "stencilFunc": "Always",
+        "stencilFailOp": "Replace",
+        "stencilDepthFailOp": "Replace",
+        "stencilPassOp": "Replace"
+      },
+      "stencilRef": 2
+    },
+
+    "outline_base_additive:outline_base": {
+      "blendSrc": "One",
+      "blendDst": "One",
+      "+states": ["Blending"],
+      "-defines": ["FANCY", "ENABLE_FOG", "ENABLE_LIGHT"]
+    },
+
+    "outline:entity_static": {
+      "+states": ["InvertCulling", "EnableStencilTest", "DisableDepthWrite", "Blending"],
+      "+defines": ["USE_OVERLAY"],
+      "-defines": ["FANCY"],
+      "frontFace": { "stencilFunc": "NotEqual" },
+      "backFace": { "stencilFunc": "Equal" },
+      "stencilRef": 2,
+      "stencilReadMask": 2
+    },
+
+    "impact3:entity_alphablend": {
+      "blendSrc": "DestColor",
+      "blendDst": "Zero",
+      "-defines": ["FANCY","ENABLE_FOG","ENABLE_LIGHT"],
+      "-states": ["DisableCulling"],
+      "+states": ["Blending"],
+      "depthFunc": "Always",
+      "frontFace": {
+        "stencilFunc": "GreaterEqual",
+        "stencilPassOp": "Replace",
+        "stencilFailOp": "Keep"
+      }
+    },
+    "entity_exclusion:entity_alphablend": {
+      "-defines": ["FANCY", "ENABLE_FOG", "ENABLE_LIGHT"],
+      "-states": ["DisableCulling"],
+      "+states": ["Blending", "DisableDepthWrite"],
+      "blendSrc": "OneMinusDestColor",
+      "blendDst": "OneMinusSrcColor",
+      "depthFunc": "LessEqual"
+    }
+  }
+}
